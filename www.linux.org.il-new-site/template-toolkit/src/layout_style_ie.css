@@ -1,0 +1,14 @@
+/* Extensions to the basic style, required for IE5 - 6 compatibility. */
+/* Stop using this when Internet Explorer no longer sucks. */
+
+body
+{
+	width:100%;
+}
+
+#sidebar
+{
+	position:absolute;
+	right:0px;
+	height:100%;
+}

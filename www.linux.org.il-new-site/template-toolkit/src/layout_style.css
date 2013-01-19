@@ -1,0 +1,54 @@
+/*
+This file defines the styling of the site's layout, ie. the size
+and formatting of components which appear on all pages.
+*/ 
+
+body
+{
+	margin:0px;
+	padding:0px; /* Opera */
+}
+
+#sidebar
+{
+	position:fixed;
+	right:0px; /* Opera sucks */
+	background-image:url('side.png');
+	background-repeat:no-repeat;
+	background-position:right top;
+	width:145px;
+	height:510px;
+}
+
+#menu
+{
+	margin-top:130px;
+	margin-left:20px;
+}
+
+#content
+{
+	padding:20px;
+	margin-right:145px;
+}
+
+#menu .item
+{
+	display:block;
+	text-align:left;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+
+#menu .item A
+{
+	color:black;
+}
+
+#footnotes
+{
+	text-align:left;
+	margin-top:50px;
+	border-top:1px solid black;
+	font-size:smaller;
+}

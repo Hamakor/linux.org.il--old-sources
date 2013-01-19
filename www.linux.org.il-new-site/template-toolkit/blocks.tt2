@@ -23,26 +23,36 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="author" content="Shlomi Fish" />
-<meta name="keywords" content="Begin,beginners,introduction,tutorial,site,perl,vim,c,c++,open,source,technology,programming,development,software" />
 <meta name="description" content="[% title %]" />
-<style type="text/css">
-    body {
-        background-color: white;
-        color: black;
-    }
-    a:hover {
-        background-color: palegreen;
-    }
-    .fork_me {
-        position: absolute;
-        top: 0;
-        right: 0;
-        border: 0;
-        z-index: 1;
-        width: 150px;
-    }
-</style>
-<title>[% title %]</title>
+<link rel="stylesheet" type="text/css" href="[% base_path %]layout_style.css" />
+<link rel="stylesheet" type="text/css" href="[% base_path %]main_style.css" />
+<link rel="icon" href="[% base_path %]favicon.ico" type="image/x-icon">
+<link rel="top" href="[% base_path %]" title="העמוד הראשי">
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="[% base_path %]layout_style_ie.css">
+<![endif]-->
+<script type="text/javascript" src="[% base_path %]layout.js"></script>
 </head>
+
+<body dir="RTL">
+
+<!-- Defines a right-hand "sidebar" block -->
+
+<div id="sidebar">
+
+<!-- side menu -->
+
+<div id="menu">
+<div class="item"><a href="/" title="העמוד הראשי של האתר">עמוד ראשי</a>&#160;<img src="/menu_bullet.png" alt="&#x2022;"></div>
+<div class="item"><a href="/whatis" title="אודות לינוקס ושימושיה.">מהי לינוקס</a>&#160;<img src="/menu_bullet.png" alt="&#x2022;"></div>
+<div class="item"><a href="/get" title="אתרים מהם ניתן להוריד לינוקס וארגונים מהם ניתן לרכוש.">הורדה / רכישה</a>&#160;<img src="/menu_bullet.png" alt="&#x2022;"></div>
+<?= get_xslt("data/sites.xml", "xsl/sites_menu.xsl") ?>
+</div>
+
+</div>
+
+<!-- Defines a content block, spanning the remaining rest of the document -->
+
+<div id="content">
 <body>
 [%- END -%]

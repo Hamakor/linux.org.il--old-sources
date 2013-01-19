@@ -1,0 +1,109 @@
+/* Common layout components */
+
+h1
+{
+	font-size:larger;
+	background-color:#cceeff;
+	color:black;
+	padding:2px;
+}
+
+h2
+{
+	font-size:larger;
+}
+
+h3
+{
+	font-weight:bold;
+}
+
+/* Due to limitations of CSS, I let it have margins on both sides :) */
+ul, ol, dir, menu
+{
+	margin-left:40px;
+	margin-right:40px;
+	padding-left:0px; /* Mozilla uses padding instead of margins */
+	padding-right:0px;
+}
+
+.error-box
+{
+	background-color:#ffdddd;
+	border:1px solid red;
+	color:black;
+	padding:5px;
+}
+
+.error-box q
+{
+	font-style:italic;
+}
+
+.help-box
+{
+	border:1px solid black;
+	padding:5px;
+	background-color:#ffffee;
+}
+
+.help-box H1
+{
+}
+
+.more-links
+{
+	display:block;
+	text-align:left;
+	border:1px solid silver;
+	padding:5px;
+	background-color:white;
+}
+
+.more-links a
+{
+	font-weight:bold;
+}
+
+/* Text styling */
+
+.teaser-quote
+{
+	font-style:italic;
+	font-size:larger;
+}
+
+.footref
+{
+	font-size:xx-small;
+	vertical-align:top;
+	color:red;
+}
+
+.footnote
+{
+	font-size:smaller;
+}
+
+ul
+{
+	list-style-image:url('bullet.png');
+}
+
+ul li
+{
+	padding-bottom:10px;
+	padding-right:8px;
+}
+
+/* Images of symbolic icons */
+img.symbol
+{
+	vertical-align:middle;
+}
+
+.banner
+{
+    border-width: 0;
+    margin-bottom: 1em;
+}
