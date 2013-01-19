@@ -29,7 +29,10 @@
     body {
         background-color: white;
         color: black;
-        }
+    }
+    a:hover {
+        background-color: palegreen;
+    }
 </style>
 <title>[% title %]</title>
 </head>
