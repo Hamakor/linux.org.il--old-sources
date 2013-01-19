@@ -2,11 +2,11 @@ RSYNC_EXTRA_OPTS =
 
 DESTS = dest/index.html
 
-UPLOAD_URL = hostgator:domains/begin-site.org
+UPLOAD_URL = hostgator:public_html/temp-www.linux.org.il-new-site/
 
 all: $(DESTS)
 
-$(DESTS): dest/%.html: src/%.tt2 footer.tt2 blocks.tt2
+$(DESTS): dest/%.html: src/%.html.tt2 footer.tt2 blocks.tt2
 	perl process.pl
 
 upload: all

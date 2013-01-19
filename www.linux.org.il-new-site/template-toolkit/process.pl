@@ -42,7 +42,7 @@ while (my $result = $tree->next_obj())
     else
     {
         my $basename = $result->basename;
-        if ($basename =~ s/\.tt2\z/.html/)
+        if ($basename =~ s/\.html\.tt2\z/.html/)
         {
             $template->process($result->path(), $vars,
                 File::Spec->catfile(File::Spec->curdir(), "dest",
