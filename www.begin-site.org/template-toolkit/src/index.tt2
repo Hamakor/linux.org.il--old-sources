@@ -57,6 +57,73 @@ which is more comprehensive, but under a non-speicified licence.
 
 </ul>
 
+<h2 id="add">Add Your Own Site</h2>
+
+<p>
+We would welcome new sites into our network. If you have such a site, or
+are interested in setting one up, then
+<a href="http://www.shlomifish.org/me/contact-me/">contact Shlomi Fish</a>
+and he will be able to add your site to the list, and provide some other
+*.begin-site.org services. Note that your site should conform to
+<a href="#philosophy">the guiding philosophy</a> of our network.
+</p>
+
+<h2 id="philosophy">Philosophy and Guidelines of the Beginners’ Sites</h2>
+
+<ol>
+
+<li>
+<p>
+The original text and media in the beginners sites should be licensed under
+<a href="http://en.wikipedia.org/wiki/Open_content">free and
+open source/artwork</a> licences such as
+<a href="http://creativecommons.org/licenses/by/3.0/">the Creative Commons
+Attribution licence (CC-by)</a>
+or
+<a href="http://creativecommons.org/licenses/by-sa/3.0/">the Creative
+Commons Attribution-ShareAlike 3.0 Unported licence</a>. On the other
+hand they may mirror or link to resources under different licences, as long
+as their licensing terms allows that, or they acquired permission from the
+author to do so.
+</p>
+</li>
+
+<li>
+<p>
+The sources for the sites (scripts, templates, etc.) should be versioned in
+a public-facing and open-source version control repository.
+</p>
+</li>
+
+<li>
+<p>
+The sites should have some amount of central control and organisation to
+maintain their high quality. Otherwise, the choice of a content-management
+system does not matter too much.
+</p>
+</li>
+
+<li>
+<p>
+It should be easy to find resources in the beginner sites.
+</p>
+</li>
+
+<li>
+<p>
+The sites should each have a consistent look and feel, a comprehensive
+navigation menu, and other navigational aids.
+</p>
+</li>
+
+<li>
+<p>
+Please make sure the markup is as standards-compliant, as portable and
+as clean as possible.
+</p>
+</li>
+
+</ol>
 
 [% PROCESS "footer.tt2" %]
 
