@@ -23,14 +23,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="author" content="Shlomi Fish" />
-<meta name="keywords" content="MikMod, libMikmod, mikmod, libmikmod, music,
-player, unix, linux, 669, amf, dsm, far, gdb, imf, it, med, mod, mtm, s3m, stm, stx, ult, xm" />
+<meta name="keywords" content="Begin,beginners,introduction,tutorial,site,perl,vim,c,c++,open,source,technology,programming,development,software" />
 <meta name="description" content="[% title %]" />
 <style type="text/css">
-    body { background-color: #efefef; }
-    .logo { text-align: left; }
-    .wrap { background-color: #ffffef; }
-    .to_top, .r { text-align: right; }
+    body {
+        background-color: white;
+        color: black;
+        }
 </style>
 <title>[% title %]</title>
 </head>
