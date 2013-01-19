@@ -1,6 +1,6 @@
-[% PROCESS "blocks.tt2" %]
-[% SET title = 'The Beginners’ Sites Network' %]
-[% PROCESS start_html %]
+[%- PROCESS "blocks.tt2" -%]
+[%- SET title = 'The Beginners’ Sites Network' -%]
+[%- PROCESS start_html -%]
 
 <h2 id="about">About the Beginners’ Sites Network</h2>
 

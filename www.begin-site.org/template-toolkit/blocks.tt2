@@ -1,20 +1,20 @@
-[% BLOCK block_before %]
+[%- BLOCK block_before -%]
 <table border="0" class="wrap" summary="wrapper table">
 <tr>
 <td>
-[% END %]
+[%- END -%]
 
-[% BLOCK block_after %]
+[%- BLOCK block_after -%]
 </td>
 </tr>
 </table>
-[% END %]
+[%- END -%]
 
-[% BLOCK link_to_top %]
+[%- BLOCK link_to_top -%]
 <p class="to_top"><a href="http://mikmod.shlomifish.org/">Back to the MikMod Homepage</a></p>
-[% END %]
+[%- END -%]
 
-[% BLOCK start_html %]
+[%- BLOCK start_html -%]
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE
     html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
@@ -37,4 +37,4 @@
 <title>[% title %]</title>
 </head>
 <body>
-[% END %]
+[%- END -%]
