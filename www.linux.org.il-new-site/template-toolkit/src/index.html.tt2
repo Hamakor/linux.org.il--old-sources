@@ -3,128 +3,73 @@
 [%- SET base_path = '' -%]
 [%- PROCESS start_html -%]
 
-<h2 id="about">About the Beginners’ Sites Network</h2>
+	<div class="help-box" dir="LTR">
+	Looking for IGLU's site? You can find it at <a href="http://www.iglu.org.il/">www.iglu.org.il</a>.
+	</div>
 
-<p>
-The <tt>begin-site.org</tt> domain was registered to encourage a network
-of web-sites for linking, hosting or mirroring resources of various technologies
-and field of endeavour.
-</p>
+	<!-- Events section -->
 
-<h2 id="list">List of Beginners’ Sites</h2>
+	<h1>ארועים</h1>
 
-<ul>
 
-<li>
-<p>
-<a href="http://teachingopensource.org/">The Teaching
-<strong>Open Source</strong> initiative</a>
-</p>
+	<a href="http://august.penguin.org.il/">לאתר כנס אוגוסט פינגווין 2010</a>
+	<br/>
 
-<ul>
+	ראו
+<a href="http://www.whatsup.co.il/index.php?module=PostCalendar&func=view&viewtype=month">
+תאריכון באתר Whatsup
+</a>
 
-<li>
-<p>
-<a href="http://teachingopensource.org/index.php/How_to_start_contributing_to_or_using_Open_Source_Software">“How to start contributing to or using Open
-Source Software”</a> - a tutorial.
-</p>
-</li>
+	<!-- Sites section -->
 
-</ul>
+	<h1>אתרים</h1>
 
-</li>
-
-<li>
-<p>
-<a href="http://perl-begin.org/">The <strong>Perl</strong> Beginners’ Site</a>
-</p>
-</li>
-
-<li>
-<p>
-<a href="http://vim.begin-site.org/">The <strong>Vim</strong>
-Beginners’ Site</a> - about the Vim text editor.
-</p>
-</li>
-
-<li>
-<p>
-<a href="http://c-begin.wikia.com/">The <strong>C and C++</strong>
-    Beginners Wiki</a> (on Wikia.com). Also see the
-<a href="http://www.iso-9899.info/">Freenode’s ##c channel Wiki</a>,
-which is more comprehensive, but under a non-speicified licence.
-</p>
-</li>
-
-</ul>
-
-<h2 id="add">Add Your Own Site</h2>
-
-<p>
-We would welcome new sites into our network. If you have such a site, or
-are interested in setting one up, then
-<a href="http://www.shlomifish.org/me/contact-me/">contact Shlomi Fish</a>
-and he will be able to add your site to the list, and provide some other
-*.begin-site.org services. Note that your site should conform to
-<a href="#philosophy">the guiding philosophy</a> of our network.
-</p>
-
-<h2 id="philosophy">Philosophy and Guidelines of the Beginners’ Sites</h2>
-
-<ol>
-
-<li>
-<p>
-The original text and media in the beginners sites should be licensed under
-<a href="http://en.wikipedia.org/wiki/Open_content">free and
-open source/artwork</a> licences such as
-<a href="http://creativecommons.org/licenses/by/3.0/">the Creative Commons
-Attribution licence (CC-by)</a>
-or
-<a href="http://creativecommons.org/licenses/by-sa/3.0/">the Creative
-Commons Attribution-ShareAlike 3.0 Unported licence</a>. On the other
-hand they may mirror or link to resources under different licences, as long
-as their licensing terms allows that, or they acquired permission from the
-author to do so.
-</p>
-</li>
-
-<li>
-<p>
-The sources for the sites (scripts, templates, etc.) should be versioned in
-a public-facing and open-source version control repository.
-</p>
-</li>
-
-<li>
-<p>
-The sites should have some amount of central control and organisation to
-maintain their high quality. Otherwise, the choice of a content-management
-system does not matter too much.
-</p>
-</li>
-
-<li>
-<p>
-It should be easy to find resources in the beginner sites.
-</p>
-</li>
-
-<li>
-<p>
-The sites should each have a consistent look and feel, a comprehensive
-navigation menu, and other navigational aids.
-</p>
-</li>
-
-<li>
-<p>
-Please make sure the markup is as standards-compliant, as portable and
-as clean as possible.
-</p>
-</li>
-
-</ol>
+	<table class="sites-table">
+<tr>
+<td style="vertical-align:top" class="site-logo-cell">
+<a href="http://www.penguin.org.il/"><img src="site_images/penguin.png" alt="הפינגווין" class="site-logo"></a><div class="site-log-description-block">"אתר של כמה חברה' עם שריטה בצורת פינגווין".</div>
+</td>
+<td style="vertical-align:top" class="site-logo-cell">
+<a href="http://www.whatsup.org.il/"><img src="site_images/whatsup.png" alt="WhatsUp" class="site-logo"></a><div class="site-log-description-block">אתר הלינוקס העברי שלך - בעברית !</div>
+</td>
+<td style="vertical-align:top" class="site-logo-cell">
+<a href="http://linmagazine.co.il/"><img src="site_images/linmagazine.png" alt="לינמגזין" class="site-logo"></a><div class="site-log-description-block">מגזין רשת בנושאי תרבות ותוכנה חופשית</div>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top" class="site-logo-cell">
+<a href="http://ubuntu-il.org/"><img src="site_images/ubuntu-il.png" alt="אובונטו ישראל" class="site-logo"></a><div class="site-log-description-block">אובונטו ישראל - לינוקס לבני אדם</div>
+</td>
+<td style="vertical-align:top" class="site-logo-cell">
+<a href="http://www.chameleon.org.il/"><img src="site_images/chameleon.png" alt="Chameleon.org.il" class="site-logo"></a><div class="site-log-description-block">פורטל ישראלי לסוזה לינוקס וקוד פתוח</div>
+</td>
+<td style="vertical-align:top" class="site-logo-cell">
+<a href="http://www.archlinux.org.il/"><img src="site_images/archlinux.png" alt='Archlinux - פשוט לינוקס"' class="site-logo"></a><div class="site-log-description-block">
+הפצת לינוקס מהירה בלי יותר מדי שמונצס.
+</div>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top" class="site-logo-cell">
+<a href="http://www.hamakor.org.il/"><img src="site_images/hamakor.png" alt="המקור - עמותה ישראלית לתוכנה חופשית ולקוד-מקור פתוח" class="site-logo"></a><div class="site-log-description-block">עמותה ישראלית לתוכנה חופשית ולקוד־מקור פתוח</div>
+</td>
+<td style="vertical-align:top" class="site-logo-cell">
+<a href="http://welcome.linux.org.il/"><img src="site_images/w2l.png" alt='סדרת הרצאות "ברוכים הבאים ללינוקס"' class="site-logo"></a><div class="site-log-description-block">
+הרצאות מבוא ללינוקס: בחיפה, תל אביב וירושלים.
+</div>
+</td>
+</tr>
+</table><div class="more-links">
+<a href="/sites/sites">אתרים</a>
+			|
+		<a href="/sites/support">תמיכה</a>
+			|
+		<a href="/sites/business">עסקים</a>
+			|
+		<a href="/sites/training">הדרכה</a>
+			|
+		<a href="/sites/projects">פרוייקטים</a>
+</div>
 
 [% PROCESS "footer.tt2" %]
 
