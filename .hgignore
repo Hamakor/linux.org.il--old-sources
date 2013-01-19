@@ -2,3 +2,8 @@ syntax: glob
 
 www.linux.org.il-new-site/template-toolkit/dest/index.html
 www.linux.org.il-new-site/template-toolkit/dest/images/fork-me-on-bitbucket.png
+www.linux.org.il-new-site/template-toolkit/dest/layout.js
+www.linux.org.il-new-site/template-toolkit/dest/layout_style.css
+www.linux.org.il-new-site/template-toolkit/dest/layout_style_ie.css
+www.linux.org.il-new-site/template-toolkit/dest/main_style.css
+www.linux.org.il-new-site/template-toolkit/dest/sites_style.css
