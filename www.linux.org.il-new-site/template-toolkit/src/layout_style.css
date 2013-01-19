@@ -52,3 +52,8 @@ body
 	border-top:1px solid black;
 	font-size:smaller;
 }
+
+.site-logo-cell
+{
+    vertical-align: top;
+}
