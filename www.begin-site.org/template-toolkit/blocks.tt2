@@ -33,8 +33,19 @@
     a:hover {
         background-color: palegreen;
     }
+    .fork_me {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: 0;
+        z-index: 1;
+        width: 150px;
+    }
 </style>
 <title>[% title %]</title>
 </head>
 <body>
+
+<a href="http://bitbucket.org/shlomif/www.begin-site.org"><img src="images/fork-me-on-bitbucket.png" class="fork_me" alt="Fork me on BitBucket" /></a>
+
 [%- END -%]
