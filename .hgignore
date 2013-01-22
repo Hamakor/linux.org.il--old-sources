@@ -1,5 +1,6 @@
 syntax: glob
 
+www.linux.org.il-new-site/template-toolkit/dest/.htaccess
 www.linux.org.il-new-site/template-toolkit/dest/bullet.png
 www.linux.org.il-new-site/template-toolkit/dest/favicon.ico
 www.linux.org.il-new-site/template-toolkit/dest/gfx_hebrew.png
