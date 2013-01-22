@@ -43,10 +43,24 @@
 <!-- side menu -->
 
 <div id="menu">
-<div class="item"><a href="/" title="העמוד הראשי של האתר">עמוד ראשי</a>&#160;<img src="/menu_bullet.png" alt="&#x2022;"></div>
-<div class="item"><a href="/whatis" title="אודות לינוקס ושימושיה.">מהי לינוקס</a>&#160;<img src="/menu_bullet.png" alt="&#x2022;"></div>
-<div class="item"><a href="/get" title="אתרים מהם ניתן להוריד לינוקס וארגונים מהם ניתן לרכוש.">הורדה / רכישה</a>&#160;<img src="/menu_bullet.png" alt="&#x2022;"></div>
-<?= get_xslt("data/sites.xml", "xsl/sites_menu.xsl") ?>
+<div class="item"><a href="[% base_path %]" title="העמוד הראשי של האתר">עמוד ראשי</a>&#160;<img src="/menu_bullet.png" alt="&#x2022;"></div>
+<div class="item"><a href="[% base_path %]/whatis" title="אודות לינוקס ושימושיה.">מהי לינוקס</a>&#160;<img src="/menu_bullet.png" alt="&#x2022;"></div>
+<div class="item"><a href="[% base_path %]/get" title="אתרים מהם ניתן להוריד לינוקס וארגונים מהם ניתן לרכוש.">הורדה / רכישה</a>&#160;<img src="/menu_bullet.png" alt="&#x2022;"></div>
+<div>
+<a href="[% base_path %]/sites/sites/">אתרים</a> <img src="/menu_bullet.png" alt="•">
+</div>
+<div class="item">
+<a href="[% base_path %]/sites/support/">תמיכה</a> <img src="/menu_bullet.png" alt="•">
+</div>
+<div class="item">
+<a href="[% base_path %]/sites/business/">עסקים</a> <img src="/menu_bullet.png" alt="•">
+</div>
+<div class="item">
+<a href="[% base_path %]/sites/training/">הדרכה</a> <img src="/menu_bullet.png" alt="•">
+</div>
+<div class="item">
+<a href="[% base_path %]/sites/projects/">פרוייקטים</a> <img src="/menu_bullet.png" alt="•">
+</div>
 </div>
 
 </div>
