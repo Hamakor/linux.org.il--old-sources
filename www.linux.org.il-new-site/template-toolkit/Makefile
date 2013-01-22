@@ -1,6 +1,6 @@
 RSYNC_EXTRA_OPTS =
 
-DESTS = dest/index.html
+DESTS = dest/index.html dest/whatis.html
 
 UPLOAD_URL = hostgator:public_html/temp-www.linux.org.il-new-site/
 
