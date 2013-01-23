@@ -3,6 +3,7 @@ syntax: glob
 www.linux.org.il-new-site/template-toolkit/dest/.htaccess
 www.linux.org.il-new-site/template-toolkit/dest/bullet.png
 www.linux.org.il-new-site/template-toolkit/dest/favicon.ico
+www.linux.org.il-new-site/template-toolkit/dest/get.html
 www.linux.org.il-new-site/template-toolkit/dest/gfx_hebrew.png
 www.linux.org.il-new-site/template-toolkit/dest/gfx_terminal.png
 www.linux.org.il-new-site/template-toolkit/dest/icon_event_convention.png
