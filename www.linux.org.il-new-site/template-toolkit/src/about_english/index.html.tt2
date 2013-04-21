@@ -41,19 +41,18 @@ href="http://www.gimp.org/">The GIMP</a> (image manipulation tool), <a
 href="http://kate.kde.org/">Kate</a> (text editor), <a
 href="http://kxmleditor.sourceforge.net/">KXMLEditor</a> (XML editor),
 <a href="http://www.vim.org/">Vim</a> (text editor).
-
-No
-proprietary software was used.
+No proprietary software was used.
 </p>
 
 <h1>Credits</h1>
 
 <p>
-The following people and organizations assisted in creation and maintaining of this web site:
+The following people and organizations assisted in the creation and
+maintainenance of this web site:
 </p>
 <ul>
 <li>Ilya Konstantinov – graphical design, programming.</li>
-<li>Orna Agmon – translation.</li>
+<li>Orna Agmon Ben-Yehuda – translation.</li>
 <li>Herouth Maoz – content.</li>
 <li>Shlomi Fish – maintenance and updating.</li>
 </ul>
@@ -65,26 +64,26 @@ The following people and organizations assisted in creation and maintaining of t
 The following organisations have made this site possible:
 </p>
 <ul>
-<li> <a href="http://www.hamakor.org.il/english.html">Hamakor</a>, an
+<li><a href="http://www.hamakor.org.il/english.html">Hamakor</a>, an
 Israeli Society for Free Software and Open-Source Code (Registered
 Society) is a registered Non Profit Organization – provided place on its
 server.</li>
-<li> <a href="http://www.bezeqint.net/">Bezeq International</a>,
+<li><a href="http://www.bezeqint.net/">Bezeq International</a>,
 donated hosting and Internet connectivity for the server.</li>
 </ul>
 
 <h1>Contact information</h1>
 
 <p>
-You can contact the web site maintainer by email: webmaster@linux.org.il .
+You can contact the web site maintainer by email:
+<a href="mailto:webmaster@linux.org.il">webmaster@linux.org.il</a>.
 </p>
 
 <div class="more-links">
 <a href="http://www.linux.org.il/">Back to main page</a>
 </div>
 
-</div>
-
+</div> [%# dir=ltr %]
 
 [% PROCESS "footer.tt2" %]
 
