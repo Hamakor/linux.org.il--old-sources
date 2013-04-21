@@ -1,0 +1,220 @@
+[%- PROCESS "blocks.tt2" -%]
+[%- SET title = 'קישורים - לינוקס בישראל' -%]
+[%- SET base_path = '../../' -%]
+[%- PROCESS start_html -%]
+
+	<h1>פרוייקטים</h1>
+
+    <h2 id="project-hebrew-integration">פרוייקטי הוספת תמיכה עברית ותרגום</h2>
+
+    <div style="margin-right:20px"><dl class="sites-list">
+<dt>
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://linbrew.sourceforge.net/carmel/">כרמל</a>
+			&lrm;&rlm;
+			</dt>
+<dd>מסד-נתונים רחב-היקף של מילים בעברית ותרגומן לאנגלית. מטרתו של פרוייקט זה, היא איחוד מכלול הפרוייקטים העוסקים בתרגום תוכנות קוד-פתוח תוך כדי סיפוק תרגום אחיד למונחים טכניים הקשים לתרגום. בתקווה שתרגום זה יהפוך לתקן לפיו יפעלו כל הפרוייקטים בהסכמה.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://www.kde.org/il/hebrew/">עברית ב- KDE</a>
+			&lrm;&rlm;
+			</dt>
+<dd>פרויקט תרגום לעברית ולוקליזציה ישראלית לסביבת שולחן העבודה KDE.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://linbrew.sourceforge.net/">linBrew</a>
+			&lrm;&rlm;
+			</dt>
+<dd>הפצת GNU/Linux המתאימה למשתמשים עבריים/ישראלים חדשים המחפשים הפצה עם תמיכה מובנית בעברית והגדרות למשתמש הישראלי (כמו ADSL).</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://www.linux-kinneret.org/">גנו/לינוקס כינרת</a>
+			&lrm;&rlm;
+			</dt>
+<dd> גנו/לינוקס כנרת הינה מערכת הפעלה ומגוון יישומים המסופקים בערכה אחת ונוחה להפעלה ולשימוש (תקליטור).</dd>
+<dt>
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://debian-hebrew.alioth.debian.org/">דביאן עברי</a>
+			&lrm;&rlm;
+			</dt>
+<dd>פרוייקט דביאן עברי המפיץ דיסק התקנה יחיד להתקנת דביאן עבור משתמש עברי. באתר אפשר גם למצא מדריכים למשתמש דביאן הרוצים לגייר את המערכת שלהם בצורה נוחה.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://www.joomla.org.il/">הסבת ג'ומלה! לעברית</a>
+			&lrm;&rlm;
+			</dt>
+<dd>
+ג'ומלה! (בעבר "ממבו") הינה מערכת ניהול תוכן (CMS) לבניית אתרים דינמיים בסביבת Apache/PHP/MySQL. פרוייקט תרגום ג'ומלה לעברית מתבצע כפרוייקט קהילתי ומשתתפים מתנדבים רבים ממשתמשי ג'ומלה בארץ. במסגרת הפרוייקט גם מבוצעת הסבת ערכת המנהל של התוכנה לתמכיה בכתיבה מימין לשמאל.</dd>
+</dl></div><h2 id="project-hebrew-support">פרוייקטי תמיכה עברית</h2><div style="margin-right:20px"><dl class="sites-list">
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://fribidi.sourceforge.net/">FriBidi</a>
+			&lrm;&rlm;
+			</dt>
+<dd>ספריה הכוללת מימוש של האלגוריתם לדו-כיווניות לפי תקן Unicode ונותנת למפתחי תוכנה את הכלים להוסיף תמיכה לשפות דו-כיווניות לתוכנות שלהם.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://oss.software.ibm.com/icu/">International Components for Unicode (ICU)</a>
+			&lrm;&rlm;
+			</dt>
+<dd>ספריה הכוללת מגוון אלגוריתמים לטקסט Unicode (בין השאר תמיכה בטקסט דו-כיווני) והגדרות אזור / תרבות (locale).</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://www.ivrix.org.il/projects/spell-checker/">Hspell</a>
+			&lrm;&rlm;
+			</dt>
+<dd>תוכנת בדיקת איות עברי, המשתלבת גם כבודק איות בתוכנות אחרות.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://hspell-gui.sourceforge.net/">Hspell GUI</a>
+			&lrm;&rlm;
+			</dt>
+<dd>מנשק משתמש גרפי ל hspell.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://libhdate.sourceforge.net/">libHdate</a>
+			&lrm;&rlm;
+			</dt>
+<dd>ספריה ותכנות עזר לשימוש בתאריך עברי, חגים, זמני היום וקריאה בתורה.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://hdateapplet.sourceforge.net/">HDate applet</a>
+			&lrm;&rlm;
+			</dt>
+<dd>לוח שנה עברי שלחני וישומון פנל המראה את התאריך העברי החגים פרשת השבוע וזמני הזריחה/שקיעה.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://hocr.berlios.de/">HOCR</a>
+			&lrm;&rlm;
+			</dt>
+<dd>ספריה ותכנות עזר לזיהוי כתב (OCR) עברי.</dd>
+</dl></div>
+
+<h2 id="project-israeli-oss">פרוייקטים שיתופיים ישראליים</h2>
+
+<div style="margin-right:20px"><dl class="sites-list">
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://perl.org.il/israeli-projects.html">קטלוג המיזמים  הישראליים בשפת פרל באתר perl.org.il</a>
+			&lrm;&rlm;
+			</dt>
+<dd></dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://www.shlomifish.org/open-source/resources/israel/list-of-projects/">קטלוג הפרויקטים הישראליים של Hackers-IL</a>
+			&lrm;&rlm;
+			</dt>
+<dd></dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://www.linux-kinneret.org/">גנו/לינוקס כינרת</a>
+			&lrm;&rlm;
+			</dt>
+<dd> גנו/לינוקס כנרת הינה מערכת הפעלה ומגוון יישומים המסופקים בערכה אחת ונוחה להפעלה ולשימוש (תקליטור).</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://baruch.ev-en.org/proj/websec/">Web Secretary</a>
+			&lrm;&rlm;
+			</dt>
+<dd>תוכנה הסורקת אתרי אינטרנט ומדווחת כאשר נעשים בהם שינויים.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://baruch.ev-en.org/proj/autofw/autofw.html">autofw</a>
+			&lrm;&rlm;
+			</dt>
+<dd>תוכנה לתחזוקת פיירוול למשתמש ביתי באופן אוטומטי.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://fc-solve.berlios.de/">Freecell Solver</a>
+			&lrm;&rlm;
+			</dt>
+<dd>תוכנה לפתרון משחקי Freecell.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://volnorm.sourceforge.net/">XMMS-Volnorm</a>
+			&lrm;&rlm;
+			</dt>
+<dd>תוסף לנגן XMMS המשווה (normalize( את עוצמת הצליל בין שיר לשיר.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://dbsconv.sourceforge.net/">Database Super Converter</a>
+			&lrm;&rlm;
+			</dt>
+<dd>ספריה המאפשרת לכתוב תוכנות שיעבדו על מספר גדול של מסדי נתונים שונים.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://www.jinchess.com/">Jin</a>
+			&lrm;&rlm;
+			</dt>
+<dd>תוכנה המאפשרת לשחק שחמט מול אנשים ברחבי העולם.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://xparam.sourceforge.net/">XParam</a>
+			&lrm;&rlm;
+			</dt>
+<dd></dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://baruch.ev-en.org/proj/chktex/">ChkTeX</a>
+			&lrm;&rlm;
+			</dt>
+<dd>תוכנה לבדיקת תקינות טיפוגרפית של מסמכי TeX.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://www.opencores.org/perlilog/">Perlilog</a>
+			&lrm;&rlm;
+			</dt>
+<dd>תוכנה המסייעת לעצב תוכניות Verilog.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://www.shlomifish.org/lm-solve/">LM-Solve</a>
+			&lrm;&rlm;
+			</dt>
+<dd>תוכנה לפתרון פאזלים לוגיים.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://www.shlomifish.org/jmikmod/">MikMod ל Java</a>
+			&lrm;&rlm;
+			</dt>
+<dd>גרסא של MikMod (נגן קבצי MOD) לסביבת Java.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+			&lrm;&rlm;
+			<a href="http://quad-pres.berlios.de/">Quad-Pres</a>
+			&lrm;&rlm;
+			</dt>
+<dd>תוכנה בשפת Perl המשמשת להכנת מצגות HTML.</dd>
+</dl></div>
+
+
+[% PROCESS "footer.tt2" %]
+
+</body>
+</html>
