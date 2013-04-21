@@ -57,3 +57,7 @@ body
 {
     vertical-align: top;
 }
+
+.sites-list dd {
+    margin-bottom: 1em;
+}
