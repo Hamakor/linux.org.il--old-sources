@@ -1,0 +1,92 @@
+[%- PROCESS "blocks.tt2" -%]
+[%- SET title = 'About the site - Linux Israel' -%]
+[%- SET base_path = '../' -%]
+[%- PROCESS start_html -%]
+
+<!-- content -->
+
+<div dir="ltr">
+
+<h1>About the site</h1>
+
+<p>
+This web site was created by Israeli Linux enthusiasts. The goal of the
+web site is to serve as a starting point for Israeli Hebrew-speaking
+users in their search for Linux-related information. The site is divided
+into the following sections:
+</p>
+<ul>
+<li>Introduction to Linux </li>
+<li>Acquiring Linux </li>
+<li>Linux technical support</li>
+<li>Links to Israeli Linux sites</li>
+<li>Community and commercial Linux events in Israel</li>
+</ul>
+
+<p>
+The site strives towards minimalism since we believe a full-featured
+Linux portal is not necessary in light of multiple other successful
+<a href="[% base_path %]sites/sites">sites</a>
+which fill this niche. For this reason, we are not interested in
+running features such as news, articles, discussion boards or online
+chats.
+</p>
+
+<p>
+The following free software was used during the site's creation and power the
+site: <a href="http://httpd.apache.org/">Apache web server</a>, <a
+href="http://www.php.net/">PHP</a> (web application engine), <a
+href="http://www.xmlsoft.org/">LibXML</a> (XML/XSLT support), <a
+href="http://www.gimp.org/">The GIMP</a> (image manipulation tool), <a
+href="http://kate.kde.org/">Kate</a> (text editor), <a
+href="http://kxmleditor.sourceforge.net/">KXMLEditor</a> (XML editor),
+<a href="http://www.vim.org/">Vim</a> (text editor).
+
+No
+proprietary software was used.
+</p>
+
+<h1>Credits</h1>
+
+<p>
+The following people and organizations assisted in creation and maintaining of this web site:
+</p>
+<ul>
+<li>Ilya Konstantinov – graphical design, programming.</li>
+<li>Orna Agmon – translation.</li>
+<li>Herouth Maoz – content.</li>
+<li>Shlomi Fish – maintenance and updating.</li>
+</ul>
+
+
+<h1>Organisations</h1>
+
+<p>
+The following organisations have made this site possible:
+</p>
+<ul>
+<li> <a href="http://www.hamakor.org.il/english.html">Hamakor</a>, an
+Israeli Society for Free Software and Open-Source Code (Registered
+Society) is a registered Non Profit Organization – provided place on its
+server.</li>
+<li> <a href="http://www.bezeqint.net/">Bezeq International</a>,
+donated hosting and Internet connectivity for the server.</li>
+</ul>
+
+<h1>Contact information</h1>
+
+<p>
+You can contact the web site maintainer by email: webmaster@linux.org.il .
+</p>
+
+<div class="more-links">
+<a href="http://www.linux.org.il/">Back to main page</a>
+</div>
+
+</div>
+
+
+[% PROCESS "footer.tt2" %]
+
+</body>
+</html>
