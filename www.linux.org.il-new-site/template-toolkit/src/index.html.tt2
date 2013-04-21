@@ -61,15 +61,15 @@
 </tr>
 
 </table><div class="more-links">
-<a href="/sites/sites">אתרים</a>
+<a href="[% base_path %]sites/sites">אתרים</a>
 			|
-		<a href="/sites/support">תמיכה</a>
+		<a href="[% base_path %]sites/support">תמיכה</a>
 			|
-		<a href="/sites/business">עסקים</a>
+		<a href="[% base_path %]sites/business">עסקים</a>
 			|
-		<a href="/sites/training">הדרכה</a>
+		<a href="[% base_path %]sites/training">הדרכה</a>
 			|
-		<a href="/sites/projects">פרוייקטים</a>
+		<a href="[% base_path %]sites/projects">פרוייקטים</a>
 </div>
 
 [% PROCESS "footer.tt2" %]
