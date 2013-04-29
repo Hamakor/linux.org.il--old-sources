@@ -38,6 +38,15 @@
 </dt>
 <dd></dd>
 
+
+<dt>
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
+&lrm;&rlm;
+<a href="http://www.facebook.com/groups/linux.il/?fref=ts">קבוצת לינוקס עברית בפייסבוק</a>
+&lrm;&rlm;
+</dt>
+<dd>קבוצה בפייסבוק ישראלית ובעברית.</dd>
+
 <dt>
 <img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
 &lrm;&rlm;
