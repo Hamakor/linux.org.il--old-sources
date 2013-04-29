@@ -16,7 +16,7 @@
 <ul>
 
 <li>
-<h2><a href="knoppix/">Knoppix</a></h2>
+<h2><a href="http://www.knoppix.org/">Knoppix</a></h2>
 <p>הפצה שמופעלת ישירות מתקליטור בלי שיהיה
 צורך להתקין אותה על הדיסק הקשיח
 ומאפשרת לך לנסות לינוקס "בלי מחויבות". פשוט הכניסו לכונן דיסק Knoppix
@@ -27,8 +27,30 @@
 
 <a href="http://www.knoppix.org">
 אתר הבית</a>
+</li>
+
+<li>
+<h2><a href="https://fedoraproject.org/he/">Fedora</a></h2>
+<p>
+הפצה פופולרית מאוד, המיועדת למשתמש הביתי. זאת הפצת לינוקס המפותחת ע"י RedHat יחד עם מפתחים אחרים מהעולם, והיא בעצם גרסא חדשה של ההפצה שנקראה בעבר RedHat Linux. ההפצה הרשמית של RedHat נקראת כיום RedHat Enterprise Linux ויותר אינה מופצת בחינם.
+</p>
+<p class="more-links">
+מידע נוסף:
+
+<a href="https://fedoraproject.org/he/">
+אתר הבית</a>
+</li>
+
+<li>
+<h2><a href="http://www.ubuntu.com/">אובונטו (Ubuntu)</a></h2>
+<p>הפצה ידידותית למשתמש ומאוד פופולרית.</p>
+<p class="more-links">
+מידע נוסף:
+
+<a href="http://www.ubuntu.com/">
+אתר הבית</a>
 |
-<a href="knoppix/#download">הורדה</a></p>
+<a href="http://ubuntu-il.org/">אובנוטו ישראל</a></p>
 </li>
 
 <li>
@@ -43,53 +65,6 @@
 <a href="mandriva/#download">הורדה</a></p>
 </li>
 
-<li>
-<h2><a href="ubuntu/">אובונטו (Ubuntu)</a></h2>
-<p>הפצה ידידותית למשתמש ומאוד פופולרית.</p>
-<p class="more-links">
-מידע נוסף:
-
-<a href="http://www.ubuntu.com/">
-אתר הבית</a>
-|
-<a href="ubuntu/#download">הורדה</a></p>
-</li>
-
-<li>
-<h2><a href="fedora/">Fedora Core</a></h2>
-<p>
-הפצה פופולרית מאוד, המיועדת למשתמש הביתי. זאת הפצת לינוקס המפותחת ע"י RedHat יחד עם מפתחים אחרים מהעולם, והיא בעצם גרסא חדשה של ההפצה שנקראה בעבר RedHat Linux. ההפצה הרשמית של RedHat נקראת כיום RedHat Enterprise Linux ויותר אינה מופצת בחינם.
-</p>
-<p class="more-links">
-מידע נוסף:
-
-<a href="https://fedoraproject.org/he/">
-אתר הבית</a>
-|
-<a href="fedora/#download">הורדה</a></p>
-</li>
-
-<li>
-<h2><a href="yellow_dog/">Yellow Dog Linux</a></h2>
-<p>
-הפצת יילו-דוג של טרהסופט סולושנס היא הפצה ייעודית למחשבים המבוססים על מעבדי PowerPC  (המעבד בו השתמשו מחשבי מקינטוש ישנים, וכן מחשבים אחרים), וקיימת כבר מ 1999. החוזק שלה הוא בכל שמפתחיה מתמחים ב PowerPC, ואינם רואים אותו כענף צדדי. זו הפצה מבוססת רד-האט ברובה. המראה של סביבת KDE (אחת מסביבות החלונות בלינוקס) הוא דמוי מאק כברירת מחדל. ההתקנה קלה, וזיהוי החומרה האוטומטי טוב והמערכת עוקפת בקלות בעיות ידועות המיוחסות לחומרת ה PowerPC.
-</p>
-<p class="more-links">
-מידע נוסף:
-
-<a href="http://www.ydl.net/support/downloads/">
-אתר הבית</a></p>
-</li>
-
-<li>
-<h2><a href="kazit/">קזית</a></h2>
-<p>גרסת הדגמה מעוברתת של Knoppix.</p>
-<p class="more-links">
-מידע נוסף:
-
-<a href="http://kazit.berlios.de/">
-אתר הבית</a></p>
-</li>
 </ul>
 
 <h1>הורדת ההפצה</h1>
