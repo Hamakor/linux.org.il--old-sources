@@ -27,15 +27,15 @@
 <meta name="description" content="[% title %]" />
 <link rel="stylesheet" type="text/css" href="[% base_path %]layout_style.css" />
 <link rel="stylesheet" type="text/css" href="[% base_path %]main_style.css" />
-<link rel="icon" href="[% base_path %]favicon.ico" type="image/x-icon">
-<link rel="top" href="[% base_path %]" title="העמוד הראשי">
+<link rel="icon" href="[% base_path %]favicon.ico" type="image/x-icon" />
+<link rel="top" href="[% base_path %]" title="העמוד הראשי" />
 <!--[if lt IE 8]>
 <link rel="stylesheet" href="[% base_path %]layout_style_ie.css">
 <![endif]-->
 <script type="text/javascript" src="[% base_path %]layout.js"></script>
 </head>
 
-<body dir="RTL">
+<body dir="rtl">
 
 <!-- Defines a right-hand "sidebar" block -->
 
@@ -43,24 +43,26 @@
 
 <!-- side menu -->
 
+[%- SET bullet = "<img src=\"" _ base_path _ "menu_bullet.png\" alt=\"•\" />" -%]
+
 <div id="menu">
-<div class="item"><a href="[% base_path %]" title="העמוד הראשי של האתר">עמוד ראשי</a>&#160;<img src="/menu_bullet.png" alt="&#x2022;"></div>
-<div class="item"><a href="[% base_path %]whatis" title="אודות לינוקס ושימושיה.">מהי לינוקס</a>&#160;<img src="/menu_bullet.png" alt="&#x2022;"></div>
-<div class="item"><a href="[% base_path %]get" title="אתרים מהם ניתן להוריד לינוקס וארגונים מהם ניתן לרכוש.">הורדה / רכישה</a>&#160;<img src="/menu_bullet.png" alt="&#x2022;"></div>
+<div class="item"><a href="[% base_path %]" title="העמוד הראשי של האתר">עמוד ראשי</a>&#160;[% bullet %]</div>
+<div class="item"><a href="[% base_path %]whatis" title="אודות לינוקס ושימושיה.">מהי לינוקס</a>&#160;[% bullet %]</div>
+<div class="item"><a href="[% base_path %]get" title="אתרים מהם ניתן להוריד לינוקס וארגונים מהם ניתן לרכוש.">הורדה / רכישה</a>&#160;[% bullet %]</div>
 <div class="item">
-<a href="[% base_path %]sites/sites/">אתרים</a> <img src="/menu_bullet.png" alt="•">
+<a href="[% base_path %]sites/sites/">אתרים</a> [% bullet %]
 </div>
 <div class="item">
-<a href="[% base_path %]sites/support/">תמיכה</a> <img src="/menu_bullet.png" alt="•">
+<a href="[% base_path %]sites/support/">תמיכה</a> [% bullet %]
 </div>
 <div class="item">
-<a href="[% base_path %]sites/business/">עסקים</a> <img src="/menu_bullet.png" alt="•">
+<a href="[% base_path %]sites/business/">עסקים</a> [% bullet %]
 </div>
 <div class="item">
-<a href="[% base_path %]sites/training/">הדרכה</a> <img src="/menu_bullet.png" alt="•">
+<a href="[% base_path %]sites/training/">הדרכה</a> [% bullet %]
 </div>
 <div class="item">
-<a href="[% base_path %]sites/projects/">פרוייקטים</a> <img src="/menu_bullet.png" alt="•">
+<a href="[% base_path %]sites/projects/">פרוייקטים</a> [% bullet %]
 </div>
 </div>
 
@@ -69,7 +71,6 @@
 <!-- Defines a content block, spanning the remaining rest of the document -->
 
 <div id="content">
-<body>
 [%- END -%]
 
 [%-# vim:ft=tt2html:

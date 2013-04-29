@@ -27,6 +27,8 @@
 
 <a href="http://www.knoppix.org">
 אתר הבית</a>
+</p>
+
 </li>
 
 <li>
@@ -39,6 +41,8 @@
 
 <a href="https://fedoraproject.org/he/">
 אתר הבית</a>
+</p>
+
 </li>
 
 <li>
@@ -50,7 +54,8 @@
 <a href="http://www.ubuntu.com/">
 אתר הבית</a>
 |
-<a href="http://ubuntu-il.org/">אובנוטו ישראל</a></p>
+<a href="http://ubuntu-il.org/">אובנוטו ישראל</a>
+</p>
 </li>
 
 <li>
@@ -62,7 +67,8 @@
 <a href="http://www.mandriva.com/">
 אתר הבית</a>
 |
-<a href="mandriva/#download">הורדה</a></p>
+<a href="mandriva/#download">הורדה</a>
+</p>
 </li>
 
 </ul>
@@ -94,6 +100,3 @@
 </p>
 
 [% PROCESS "footer.tt2" %]
-
-</body>
-</html>

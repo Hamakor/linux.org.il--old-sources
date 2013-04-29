@@ -6,7 +6,7 @@
 				על אודות האתר
 			</a>
 			&nbsp;|&nbsp;
-			<a href="[% base_path %]about_english" dir="LTR">
+			<a href="[% base_path %]about_english" dir="ltr">
 				About the site (English info)
 			</a>
 			&nbsp;|&nbsp;

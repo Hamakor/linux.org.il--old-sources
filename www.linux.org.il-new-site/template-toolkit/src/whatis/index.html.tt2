@@ -21,7 +21,7 @@
 
 <li>
 <div class="feature_floatie">
-<img src="[% base_path %]gfx_terminal.png" alt="תצלום מסך של מסוף בלינוקס"><br>
+<img src="[% base_path %]gfx_terminal.png" alt="תצלום מסך של מסוף בלינוקס" /><br />
 מאבד את הצפון בחלונות, או פשוט מרגיש רטרו?
 </div>
 
@@ -49,7 +49,7 @@ GNOME. אמנם הסביבה הגרפית באה יחד עם התקנות הלי
 <li>
 <div class="feature_floatie">
 <img src="[% base_path %]gfx_hebrew.png" alt="תצלום מסך של תוכנת KEdit עם
-תרגום עברי ומסמך עברי פתוח"><br>
+תרגום עברי ומסמך עברי פתוח" /><br />
 שפה קשה.
 </div>
 
@@ -127,27 +127,24 @@ href="http://he.wikipedia.org/wiki/%D7%A7%D7%A8%D7%9F_%D7%95%D7%99%D7%A7%D7%99%D
 </ul>
 
 <ol class="footnote">
-<li>
-<a name="footref-license"/>
+
+<li id="footref-license">
 התקציר הנ"ל לא מהווה הסבר מעמיק לתנאי הרישיון תחתיו מופץ גרעין מערכת ההפעלה
 לינוקס, <a href="http://www.law.co.il/computer-law/gpl-hebrew.html">הרישיון
 הציבורי הכללי של GNU&rlm; (GPL)</a>.
 </li>
-<li>
-<a name="footref-l10n"/>
+
+<li id="footref-l10n">
 באתר שלנו ניתן למצוא
 <a href="http://www.linux.org.il/sites/projects/#project-hebrew-integration">
 קישורים לפרוייקטי התירגום
 </a>.
 </li>
-<li>
-<a name="footref-fribidi"/>
+
+<li id="footref-fribidi">
 הכוונה היא לפרוייקט
 <a href="http://fribidi.sourceforge.net/">FriBiDi</a>.
 </li>
 </ol>
 
 [% PROCESS "footer.tt2" %]
-
-</body>
-</html>

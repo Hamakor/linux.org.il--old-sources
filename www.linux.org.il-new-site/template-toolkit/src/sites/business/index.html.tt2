@@ -6,39 +6,39 @@
 
 <h1>עסקים</h1>
 
-<h2 id"companies">חברות</h2>
+<h2 id="companies">חברות</h2>
 
 <div style="margin-right:20px"><dl class="sites-list">
 <dt>
-<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://www.codefidence.com/">Codefidence ltd.</a>
 			&lrm;&rlm;
 			</dt>
 <dd></dd>
 <dt>
-<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://www.lingnu.com/index_h.html">לינגנו ייעוץ קוד פתוח בע״מ</a>
 			&lrm;&rlm;
 			</dt>
 <dd>תמיכה משלימה לטכנולוגיות קוד פתוח. התמיכה כוללת ייעוץ, הטמעה, פתרון בעיות, מעקב אחר תקלות ושירותי פיתוח. בין הטכנולוגיות בהן מתעסקת החברה: לינוקס, מסד הנתונים PostgresSQL,‏ Wine,‏ Apache ועוד.</dd>
 <dt>
-<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://www.regoplus.com/">רגו פלוס</a>
 			&lrm;&rlm;
 			</dt>
 <dd>החברה עוסקת בהדרכה, תמיכה, אינטגרציה והתמעה של פתרונות קוד פתוח בעסקים ואירגונים. מוצר הדגל של החברה הוא רגו+124 המאפשר למספר משתמשים לעבוד על אותו המחשב הפיזי בלי צורך ברשת.</dd>
 <dt>
-<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://www.lizard.co.il/">ליזרד מחשבים</a>
 			&lrm;&rlm;
 			</dt>
 <dd>ליזרד מחשבים מציעה תמיכה, הטמעה ופתרונות עסקיים מבוססי קוד פתוח.</dd>
 <dt>
-<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://www.osp.co.il/">OSP</a>
 			&lrm;&rlm;
@@ -46,11 +46,12 @@
 <dd>מרכז ייעוץ ותמיכה בתוכנות קוד פתוח. החברה מעניקה שירות למשתמשי מגוון תוכנות הקוד הפתוח ובפרט לצרכני Linux. החברה מתחייבת  למצויינות בעבודתה ולמתן פתרונות זמינים ומהירים בתחום תוכנה ייחודי זה.
 אחד היעדים המרכזיים של החברה הינו הרחבת השימוש ותפוצת תכנות קוד פתוח בישראל, זאת מתוך דאגה ללקוח וראיה אידאולוגית, האומרת כי יישום תוכנות אלה מאפשר לחסוך בעלות רישיונות.
 </dd>
-</dl></div><p style="font-size:smaller;">
+</dl>
+
+<p style="font-size:smaller;">
 					* תיאורי החברות הינם מאת החברות עצמן ובאחריותן בלבד.
 					</p>
 
-[% PROCESS "footer.tt2" %]
+</div>
 
-</body>
-</html>
+[% PROCESS "footer.tt2" %]

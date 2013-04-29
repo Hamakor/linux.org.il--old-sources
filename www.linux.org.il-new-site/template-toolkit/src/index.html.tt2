@@ -3,7 +3,7 @@
 [%- SET base_path = '' -%]
 [%- PROCESS start_html -%]
 
-	<div class="help-box" dir="LTR">
+	<div class="help-box" dir="ltr">
 	Looking for IGLU's site? You can find it at <a href="http://www.iglu.org.il/">www.iglu.org.il</a>.
 	</div>
 
@@ -16,7 +16,7 @@
 	<br/>
 
 	ראו
-<a href="http://www.whatsup.co.il/index.php?module=PostCalendar&func=view&viewtype=month">
+<a href="http://www.whatsup.co.il/index.php?module=PostCalendar&amp;func=view&amp;viewtype=month">
 תאריכון באתר Whatsup
 </a>
 
@@ -27,34 +27,34 @@
 	<table class="sites-table">
 <tr>
 <td class="site-logo-cell">
-<a href="http://www.penguin.org.il/"><img src="site_images/penguin.png" alt="הפינגווין" class="site-logo"></a><div class="site-log-description-block">"אתר של כמה חברה' עם שריטה בצורת פינגווין".</div>
+<a href="http://www.penguin.org.il/"><img src="site_images/penguin.png" alt="הפינגווין" class="site-logo" /></a><div class="site-log-description-block">"אתר של כמה חברה' עם שריטה בצורת פינגווין".</div>
 </td>
 <td class="site-logo-cell">
-<a href="http://www.whatsup.org.il/"><img src="site_images/whatsup.png" alt="WhatsUp" class="site-logo"></a><div class="site-log-description-block">אתר הלינוקס העברי שלך - בעברית !</div>
+<a href="http://www.whatsup.org.il/"><img src="site_images/whatsup.png" alt="WhatsUp" class="site-logo" /></a><div class="site-log-description-block">אתר הלינוקס העברי שלך - בעברית !</div>
 </td>
 <td class="site-logo-cell">
-<a href="http://linmagazine.co.il/"><img src="site_images/linmagazine.png" alt="לינמגזין" class="site-logo"></a><div class="site-log-description-block">מגזין רשת בנושאי תרבות ותוכנה חופשית</div>
+<a href="http://linmagazine.co.il/"><img src="site_images/linmagazine.png" alt="לינמגזין" class="site-logo" /></a><div class="site-log-description-block">מגזין רשת בנושאי תרבות ותוכנה חופשית</div>
 </td>
 </tr>
 <tr>
 <td class="site-logo-cell">
-<a href="http://ubuntu-il.org/"><img src="site_images/ubuntu-il.png" alt="אובונטו ישראל" class="site-logo"></a><div class="site-log-description-block">אובונטו ישראל - לינוקס לבני אדם</div>
+<a href="http://ubuntu-il.org/"><img src="site_images/ubuntu-il.png" alt="אובונטו ישראל" class="site-logo" /></a><div class="site-log-description-block">אובונטו ישראל - לינוקס לבני אדם</div>
 </td>
 <td class="site-logo-cell">
-<a href="http://www.chameleon.org.il/"><img src="site_images/chameleon.png" alt="Chameleon.org.il" class="site-logo"></a><div class="site-log-description-block">פורטל ישראלי לסוזה לינוקס וקוד פתוח</div>
+<a href="http://www.chameleon.org.il/"><img src="site_images/chameleon.png" alt="Chameleon.org.il" class="site-logo" /></a><div class="site-log-description-block">פורטל ישראלי לסוזה לינוקס וקוד פתוח</div>
 </td>
 <td class="site-logo-cell">
-<a href="http://www.archlinux.org.il/"><img src="site_images/archlinux.png" alt='Archlinux - פשוט לינוקס"' class="site-logo"></a><div class="site-log-description-block">
+<a href="http://www.archlinux.org.il/"><img src="site_images/archlinux.png" alt='Archlinux - פשוט לינוקס"' class="site-logo" /></a><div class="site-log-description-block">
 הפצת לינוקס מהירה בלי יותר מדי שמונצס.
 </div>
 </td>
 </tr>
 <tr>
 <td class="site-logo-cell">
-<a href="http://www.hamakor.org.il/"><img src="site_images/hamakor.png" alt="המקור - עמותה ישראלית לתוכנה חופשית ולקוד-מקור פתוח" class="site-logo"></a><div class="site-log-description-block">עמותה ישראלית לתוכנה חופשית ולקוד־מקור פתוח</div>
+<a href="http://www.hamakor.org.il/"><img src="site_images/hamakor.png" alt="המקור - עמותה ישראלית לתוכנה חופשית ולקוד-מקור פתוח" class="site-logo" /></a><div class="site-log-description-block">עמותה ישראלית לתוכנה חופשית ולקוד־מקור פתוח</div>
 </td>
 <td class="site-logo-cell">
-<a href="http://welcome.linux.org.il/"><img src="site_images/w2l.png" alt='סדרת הרצאות "ברוכים הבאים ללינוקס"' class="site-logo"></a><div class="site-log-description-block">
+<a href="http://welcome.linux.org.il/"><img src="site_images/w2l.png" alt='סדרת הרצאות "ברוכים הבאים ללינוקס"' class="site-logo" /></a><div class="site-log-description-block">
 הרצאות מבוא ללינוקס: בחיפה, תל אביב וירושלים.
 </div>
 </td>
@@ -73,6 +73,3 @@
 </div>
 
 [% PROCESS "footer.tt2" %]
-
-</body>
-</html>

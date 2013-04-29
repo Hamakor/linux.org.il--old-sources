@@ -10,70 +10,70 @@
 
 <div style="margin-right:20px"><dl class="sites-list">
 <dt>
-<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://www.penguin.org.il/">הפינגווין</a>
 			&lrm;&rlm;
 			</dt>
 <dd>אתר מדריכים בעברית לכל השימושים בלינוקס החל ממה זה לינוקס, דרך התקנה וכלה בהפעלת שירותים מתקדמים. האתר נבנה ומתוחזק על ידי קבוצת מתנדבים עם שריטה בצורת פינגווין.</dd>
 <dt>
-<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://www.whatsup.org.il/">WhatsUp</a>
 			&lrm;&rlm;
 			</dt>
 <dd>פורטל לינוקס.</dd>
 <dt>
-<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://www.iglu.org.il/">IGLU (איגלו)</a>
 			&lrm;&rlm;
 			</dt>
 <dd>קבוצת משתמשי הלינוקס הישראלית - אתר המספק חדשות לינוקס רלוונטיות לישראל, פרטים על אירועים ומפגשים, רשימת הצעות עבודה בתחום הלינוקס, מענה לשאלות בנושאי לינוקס וקישורים לאתרים נוספים. כמו כן, האתר מחזיק ומאפשר להוריד תוכנות חופשיות רבות.</dd>
 <dt>
-<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://www.haifux.org/">מועדון הלינוקס החיפאי Haifux</a>
 			&lrm;&rlm;
 			</dt>
 <dd>מועדון הלינוקס החיפאי פועל כבר שנים רבות במסגרת הטכניון בחיפה (כל אחד מוזמן!) ומארגן הרצאות על נושאים טכניים בלינוקס ו"מסיבות התקנה".</dd>
 <dt>
-<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://www.perl.org.il/">The Israeli Perl Mongers</a>
 			&lrm;&rlm;
 			</dt>
 <dd></dd>
 <dt>
-<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://www.cs.tau.ac.il/telux/">מועדון הלינוקס התל-אביבי</a>
 			&lrm;&rlm;
 			</dt>
 <dd></dd>
 <dt>
-<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://jerusalem.linux.org.il/">מועדון הלינוקס הירושלמי</a>
 			&lrm;&rlm;
 			</dt>
 <dd></dd>
 <dt>
-<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://linmagazine.co.il/">לינמגזין</a>
 			&lrm;&rlm;
 			</dt>
 <dd>אתר העוסק בנושאים הקשורים לתוכנה חופשית וקוד מקור פתוח ומספק מלבד עדכוני חדשות ואקטואליה גם חומר מקורי שנכתב במיוחד עבור האתר.</dd>
 <dt>
-<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://ubuntu-il.org/">אובונטו ישראל</a>
 			&lrm;&rlm;
 			</dt>
 <dd></dd>
 <dt>
-<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://www.chameleon.org.il/">Chameleon.org.il</a>
 			&lrm;&rlm;
@@ -83,21 +83,21 @@
 קורסים, כנסים, הרצאות ושאר פעילות ענפה תהיה מנת חלקם של חברי הקהילה אשר יזכו להנחות והטבות נוספות.
 בעזרתם, ע״י השתתפות פעילה ושיתוף פעולה פורה נעמול יחדיו להשפיע ולעצב, לתקן ולשפר את פני מוצרי הקוד הפתוח.</dd>
 <dt>
-<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://www.startcom.org/?lang=he">StartCom Linux</a>
 			&lrm;&rlm;
 			</dt>
 <dd>הפצת לינוקס ישראלית המבוססת על הפצת RedHat Enterprise וכוללת גם מרכיבים יחודיים משלה (כגון "מהדורת המולטימדיה").</dd>
 <dt>
-<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol">
+<img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://planet.linux.org.il/">Planet FOSS-IL</a>
 			&lrm;&rlm;
 			</dt>
 <dd>מקבץ של בלוגים של אנשי קהיליית התוכנה החופשית והקוד הפתוח בישראל</dd>
 <dt>
-<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://www.archlinux.org.il/">Archlinux - פשוט לינוקס"</a>
 			&lrm;&rlm;
@@ -107,7 +107,7 @@
 </dd>
 </dl></div><h2 id="official">אירגונים רשמיים</h2><div style="margin-right:20px"><dl class="sites-list">
 <dt>
-<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol">
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://www.hamakor.org.il/">המקור - עמותה ישראלית לתוכנה חופשית ולקוד-מקור פתוח</a>
 			&lrm;&rlm;
@@ -120,6 +120,3 @@
 	</div>
 
 [% PROCESS "footer.tt2" %]
-
-</body>
-</html>

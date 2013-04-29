@@ -86,6 +86,3 @@ You can contact the web site maintainer by email:
 </div> [%# dir=ltr %]
 
 [% PROCESS "footer.tt2" %]
-
-</body>
-</html>
