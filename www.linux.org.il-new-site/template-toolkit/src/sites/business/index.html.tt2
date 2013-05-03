@@ -13,6 +13,13 @@
 <dl class="sites-list">
 
 <dt>
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
+			&lrm;&rlm;
+			<a href="http://www.sweethome.co.il/">סוויטהום</a>
+			&lrm;&rlm;
+			</dt>
+<dd>חבילות אחסון אתרים לעסקים, ארגונים ופרטיים על שרתים בישראל</dd>
+<dt>
 <img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol" />
 			&lrm;&rlm;
 			<a href="http://www.codefidence.com/">Codefidence ltd.</a>
