@@ -1,6 +1,13 @@
 <dt>
 <img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
 			&lrm;&rlm;
+			<a href="http://www.lingnu.com/index_h.html">לינגנו ייעוץ קוד פתוח בע״מ</a>
+			&lrm;&rlm;
+			</dt>
+<dd>תמיכה משלימה לטכנולוגיות קוד פתוח. התמיכה כוללת ייעוץ, הטמעה, פתרון בעיות, מעקב אחר תקלות ושירותי פיתוח. בין הטכנולוגיות בהן מתעסקת החברה: לינוקס, מסד הנתונים PostgresSQL,‏ Wine,‏ Apache ועוד.</dd>
+<dt>
+<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
+			&lrm;&rlm;
 			<a href="http://www.regoplus.com/">רגו פלוס</a>
 			&lrm;&rlm;
 			</dt>
