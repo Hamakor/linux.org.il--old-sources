@@ -8,7 +8,10 @@
 
 <h2 id="companies">חברות</h2>
 
-<div style="margin-right:20px"><dl class="sites-list">
+<div style="margin-right:20px">
+
+<dl class="sites-list">
+
 <dt>
 <img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol" />
 			&lrm;&rlm;
@@ -26,13 +29,6 @@
 <dt>
 <img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
 			&lrm;&rlm;
-			<a href="http://www.regoplus.com/">רגו פלוס</a>
-			&lrm;&rlm;
-			</dt>
-<dd>החברה עוסקת בהדרכה, תמיכה, אינטגרציה והתמעה של פתרונות קוד פתוח בעסקים ואירגונים. מוצר הדגל של החברה הוא רגו+124 המאפשר למספר משתמשים לעבוד על אותו המחשב הפיזי בלי צורך ברשת.</dd>
-<dt>
-<img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
-			&lrm;&rlm;
 			<a href="http://www.lizard.co.il/">ליזרד מחשבים</a>
 			&lrm;&rlm;
 			</dt>
@@ -46,6 +42,7 @@
 <dd>מרכז ייעוץ ותמיכה בתוכנות קוד פתוח. החברה מעניקה שירות למשתמשי מגוון תוכנות הקוד הפתוח ובפרט לצרכני Linux. החברה מתחייבת  למצויינות בעבודתה ולמתן פתרונות זמינים ומהירים בתחום תוכנה ייחודי זה.
 אחד היעדים המרכזיים של החברה הינו הרחבת השימוש ותפוצת תכנות קוד פתוח בישראל, זאת מתוך דאגה ללקוח וראיה אידאולוגית, האומרת כי יישום תוכנות אלה מאפשר לחסוך בעלות רישיונות.
 </dd>
+
 </dl>
 
 <p style="font-size:smaller;">
