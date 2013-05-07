@@ -13,18 +13,14 @@
 
 <dt>
 <img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
-&lrm;&rlm;
 <a href="http://www.whatsup.co.il/modules.php?name=Forum">פורומים באתר Whatsup</a>
-&lrm;&rlm;
 </dt>
 <dd>פורומים על לינוקס.</dd>
 
 
 <dt>
 <img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol" />
-&lrm;&rlm;
 <a href="http://www.hamakor.org.il/mailing-lists/linux-il.html">Linux-IL</a>
-&lrm;&rlm;
 </dt>
 <dd>רשימת תפוצה ישראלית באנגלית לשאלות בנושא לינוקס, דיונים בנושאים שקשורים לתוכנה חופשית וקוד פתוח ואירגון פעולות של קהילת המשתמשים.</dd>
 </dl>
@@ -32,51 +28,39 @@
 
 <dt>
 <img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
-&lrm;&rlm;
 <a href="http://www.fxp.co.il/forumdisplay.php?f=940">פורום Linux באתר FXP</a>
-&lrm;&rlm;
 </dt>
 <dd></dd>
 
 
 <dt>
 <img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
-&lrm;&rlm;
 <a href="http://www.facebook.com/groups/linux.il/?fref=ts">קבוצת לינוקס עברית בפייסבוק</a>
-&lrm;&rlm;
 </dt>
 <dd>קבוצה בפייסבוק ישראלית ובעברית.</dd>
 
 <dt>
 <img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
-&lrm;&rlm;
 <a href="http://www.fresh.co.il/vBulletin/forumdisplay.php?f=27">פורום לינוקס וקוד פתוח באתר Fresh</a>
-&lrm;&rlm;
 </dt>
 <dd></dd>
 
 
 <dt>
 <img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
-&lrm;&rlm;
 <a href="http://hwzone.co.il/community/index.php?board=20.0">פורום לינוקס, יוניקס ומערכות הפעלה אחרות באתר HWZone</a>
-&lrm;&rlm;
 </dt>
 <dd></dd>
 
 <dt>
 <img src="[% base_path %]icon_lang_en.png" alt="סמל אנגלית" class="symbol" />
-&lrm;&rlm;
 <a href="http://groups.yahoo.com/group/gnubies-il/">GNUbies-IL</a>
-&lrm;&rlm;
 </dt>
 <dd>רשימת תפוצה ישראלית באנגלית בה משתמשים חדשים יכולים לשאול שאלות, אפילו בסיסיות,
 בלי לגרור התלהמות.</dd>
 <dt>
 <img src="[% base_path %]icon_lang_he.png" alt="סמל עברית" class="symbol" />
-&lrm;&rlm;
 <a href="http://www.tapuz.co.il/forums/forum.asp?forum=236">פורום לינוקס באתר תפוז</a>
-&lrm;&rlm;
 </dt>
 <dd></dd>
 
