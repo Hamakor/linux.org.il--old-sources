@@ -8,7 +8,7 @@ UPLOAD_URL = hostgator:public_html/temp-www.linux.org.il-new-site/
 
 all: $(DEST_HTMLS) $(HTACCESS_DEST)
 
-$(DEST_HTMLS): dest/%.html: src/%.html.tt2 footer.tt2 blocks.tt2
+$(DEST_HTMLS): dest/%.html: src/%.html.tt2 footer.tt2 blocks.tt2 $(SRC_IMAGES)
 	perl process.pl
 
 $(HTACCESS_DEST): htaccess.conf

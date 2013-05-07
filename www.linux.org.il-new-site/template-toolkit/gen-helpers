@@ -5,9 +5,22 @@ _finder()
     ( find src -name '*.html.tt2' | (LC_ALL=C sort) )
 }
 
+_find_images()
+{
+    ( find src -type f -regextype posix-extended \
+        -regex '.*\.(css|png|ico|jpg|js)' )
+}
+
+_backslash_filter()
+{
+    ( perl -lape 's/$/ \\/' )
+}
+
 (
-echo "SRC_TT2S = $(_finder | perl -lape 's/$/ \\/')"
+echo "SRC_TT2S = $(_finder | _backslash_filter)"
 echo
-echo "DEST_HTMLS = $(_finder | perl -lape 's/\.tt2//; s{^src/}{dest/}'| perl -lape 's/$/ \\/')"
+echo "DEST_HTMLS = $(_finder | perl -lape 's/\.tt2//; s{^src/}{dest/}'| _backslash_filter)"
+echo
+echo "SRC_IMAGES = $(_find_images | _backslash_filter)"
 echo
 ) > include.mak

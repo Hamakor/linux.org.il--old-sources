@@ -1,5 +1,10 @@
 /* Common layout components */
 
+body
+{
+    font-family: Arial, Sans-Serif;
+}
+
 h1
 {
 	font-size:larger;
@@ -106,4 +111,14 @@ img.symbol
 {
     border-width: 0;
     margin-bottom: 1em;
+}
+
+.sites-table
+{
+    border-collapse: collapse;
+}
+.sites-table td
+{
+    padding: 0.7em;
+    border: 1pt black solid;
 }
