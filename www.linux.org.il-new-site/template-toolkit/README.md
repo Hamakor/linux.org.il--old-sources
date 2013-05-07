@@ -5,15 +5,15 @@ the right permissions).
 
 Dependencies:
 
-On Debian, Ubuntu and derivatives type:
+On Debian, Ubuntu, and derivatives, type:
 
     sudo apt-get install libtemplate-perl libfile-find-object-perl
 
-On Mandriva and Mageia type:
+On Mandriva and Mageia, type:
 
     sudo urpmi perl-Template perl-File-Find-Object
 
 Elsewhere, consult your distribution's convention for installing packages
-or use
+or use:
 
     cpan Template File::Find::Object
