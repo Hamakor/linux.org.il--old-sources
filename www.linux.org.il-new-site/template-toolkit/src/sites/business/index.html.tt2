@@ -1,5 +1,5 @@
 [%- PROCESS "blocks.tt2" -%]
-[%- SET title = 'קישורים - לינוקס בישראל' -%]
+[%- SET title = 'עסקים - לינוקס בישראל' -%]
 [%- SET base_path = '../../' -%]
 [%- PROCESS start_html -%]
 
