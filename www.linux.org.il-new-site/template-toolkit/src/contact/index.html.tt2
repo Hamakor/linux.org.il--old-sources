@@ -1,0 +1,21 @@
+[%- PROCESS "blocks.tt2" -%]
+[%- SET title = 'צרו איתנו קשר' -%]
+[%- SET base_path = '../' -%]
+[%- PROCESS start_html -%]
+
+
+<h1>צרו קשר</h1>
+
+<p>
+ניתן ליצור איתנו קשר באמצעות משלוח דואר אלקטרוני לכתובת
+<a href="mailto:webmaster@linux.org.il">webmaster@linux.org.il</a>
+או לחליפין באמצעים רבים אחרים:
+</p>
+
+<ul>
+<li>
+<a href="http://www.shlomifish.org/me/contact-me/">דף יצירת הקשר של שלומי פיש</a>.
+</li>
+</ul>
+
+[% PROCESS "footer.tt2" %]
