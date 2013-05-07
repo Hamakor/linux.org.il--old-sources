@@ -1,6 +1,5 @@
-[%- PROCESS "blocks.tt2" -%]
 [%- SET title = 'קבלת תמיכה בלינוקס - לינוקס בישראל' -%]
-[%- SET base_path = '../../' -%]
+[%- PROCESS "blocks.tt2" -%]
 [%- PROCESS start_html -%]
 
 <h1>תמיכה</h1>
@@ -8,9 +7,6 @@
 <h2 id="support-community">תמיכה קהילתית</h2>
 
 <div style="margin-right:20px">
-
-[%- SET he_icon = '<img src="' _ base_path _ 'icon_lang_he.png" alt="סמל עברית" class="symbol" />' _ " " -%]
-[%- SET en_icon = '<img src="' _ base_path _ 'icon_lang_en.png" alt="סמל אנגלית" class="symbol" />' _ " " -%]
 
 <dl class="sites-list">
 

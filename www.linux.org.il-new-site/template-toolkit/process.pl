@@ -3,6 +3,8 @@
 use strict;
 use warnings;
 
+use utf8;
+
 use Template;
 use File::Find::Object;
 
@@ -19,7 +21,6 @@ my $template = Template->new(
     }
 );
 
-my $vars = {};
 
 my $tree = File::Find::Object->new({}, './src');
 
@@ -44,6 +45,15 @@ while (my $result = $tree->next_obj())
         my $basename = $result->basename;
         if ($basename =~ s/\.html\.tt2\z/.html/)
         {
+            my $base_path = ('../' x scalar( @{$result->dir_components()} ));
+
+            my $vars =
+            +{
+                base_path => $base_path,
+                icon_en => qq#<img src="${base_path}icon_lang_en.png" alt="סמל אנגלית" class="symbol" /> #,
+                icon_he => qq#<img src="${base_path}icon_lang_he.png" alt="סמל עברית" class="symbol" /> #,
+            };
+
             $template->process($result->path(), $vars,
                 File::Spec->catfile(File::Spec->curdir(), "dest",
                     @{$result->dir_components()}, $basename),

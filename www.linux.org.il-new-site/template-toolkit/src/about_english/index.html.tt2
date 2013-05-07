@@ -1,6 +1,5 @@
-[%- PROCESS "blocks.tt2" -%]
 [%- SET title = 'About the site - Linux Israel' -%]
-[%- SET base_path = '../' -%]
+[%- PROCESS "blocks.tt2" -%]
 [%- PROCESS start_html -%]
 
 <!-- content -->

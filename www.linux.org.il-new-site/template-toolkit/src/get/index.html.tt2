@@ -1,6 +1,5 @@
-[%- PROCESS "blocks.tt2" -%]
 [%- SET title = 'הורדה / רכישה - לינוקס בישראל' -%]
-[%- SET base_path = '../' -%]
+[%- PROCESS "blocks.tt2" -%]
 [%- PROCESS start_html -%]
 
 <h1>מה הטעם החביב עליך?</h1>

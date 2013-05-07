@@ -1,6 +1,5 @@
-[%- PROCESS "blocks.tt2" -%]
 [%- SET title = 'צרו איתנו קשר' -%]
-[%- SET base_path = '../' -%]
+[%- PROCESS "blocks.tt2" -%]
 [%- PROCESS start_html -%]
 
 
