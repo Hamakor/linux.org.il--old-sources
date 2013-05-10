@@ -71,4 +71,4 @@
 		<a href="[% base_path %]sites/projects">פרוייקטים</a>
 </div>
 
-[% PROCESS "footer.tt2" %]
+[% PROCESS end_html %]

@@ -146,4 +146,4 @@ href="http://he.wikipedia.org/wiki/%D7%A7%D7%A8%D7%9F_%D7%95%D7%99%D7%A7%D7%99%D
 </li>
 </ol>
 
-[% PROCESS "footer.tt2" %]
+[% PROCESS end_html %]

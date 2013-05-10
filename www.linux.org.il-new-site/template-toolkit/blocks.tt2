@@ -73,5 +73,20 @@
 <div id="content">
 [%- END -%]
 
+[%- BLOCK end_html -%]
+		</div>
+
+		<!-- Credit notices -->
+		<div id="footnotes">
+			<a href="[% base_path %]about">על אודות האתר</a>
+			&nbsp;|&nbsp;
+			<a href="[% base_path %]about_english" dir="ltr">About the site (English info)</a>
+			&nbsp;|&nbsp;
+			<a href="[% base_path %]contact">כתבו לנו</a>
+		</div>
+	</body>
+</html>
+[%- END -%]
+
 [%-# vim:ft=tt2html:
 -%]

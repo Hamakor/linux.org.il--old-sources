@@ -213,4 +213,4 @@
 </dl></div>
 
 
-[% PROCESS "footer.tt2" %]
+[% PROCESS end_html %]
