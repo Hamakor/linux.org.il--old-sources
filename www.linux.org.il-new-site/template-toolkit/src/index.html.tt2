@@ -26,13 +26,13 @@
 	<table class="sites-table">
 <tr>
 <td class="site-logo-cell">
-<a href="http://www.penguin.org.il/"><img src="site_images/penguin.png" alt="הפינגווין" class="site-logo" /></a><div class="site-log-description-block">"אתר של כמה חברה' עם שריטה בצורת פינגווין".</div>
+<a href="http://www.penguin.org.il/"><img src="site_images/penguin.png" alt="הפינגווין" class="site-logo" /></a><div class="site-log-description-block">"אתר של כמה חבר׳ה עם שריטה בצורת פינגווין".</div>
 </td>
 <td class="site-logo-cell">
 <a href="http://www.whatsup.org.il/"><img src="site_images/whatsup.png" alt="WhatsUp" class="site-logo" /></a><div class="site-log-description-block">אתר הלינוקס העברי שלך - בעברית !</div>
 </td>
 <td class="site-logo-cell">
-<a href="http://linmagazine.co.il/"><img src="site_images/linmagazine.png" alt="לינמגזין" class="site-logo" /></a><div class="site-log-description-block">מגזין רשת בנושאי תרבות ותוכנה חופשית</div>
+<a href="http://linmagazine.co.il/"><img src="site_images/linmagazine.png" alt="לינמגזין" class="site-logo" /></a><div class="site-log-description-block">מגזין רשת בנושאי תרבות ותכנה חופשית</div>
 </td>
 </tr>
 <tr>
@@ -50,7 +50,7 @@
 </tr>
 <tr>
 <td class="site-logo-cell">
-<a href="http://www.hamakor.org.il/"><img src="site_images/hamakor.png" alt="המקור - עמותה ישראלית לתוכנה חופשית ולקוד-מקור פתוח" class="site-logo" /></a><div class="site-log-description-block">עמותה ישראלית לתוכנה חופשית ולקוד־מקור פתוח</div>
+<a href="http://www.hamakor.org.il/"><img src="site_images/hamakor.png" alt="המקור - עמותה ישראלית לתכנה חופשית ולקוד-מקור פתוח" class="site-logo" /></a><div class="site-log-description-block">עמותה ישראלית לתכנה חופשית ולקוד־מקור פתוח</div>
 </td>
 <td class="site-logo-cell">
 <a href="http://welcome.linux.org.il/"><img src="site_images/w2l.png" alt='סדרת הרצאות "ברוכים הבאים ללינוקס"' class="site-logo" /></a><div class="site-log-description-block">
@@ -68,7 +68,7 @@
 			|
 		<a href="[% base_path %]sites/training">הדרכה</a>
 			|
-		<a href="[% base_path %]sites/projects">פרוייקטים</a>
+		<a href="[% base_path %]sites/projects">פרויקטים</a>
 </div>
 
 [% PROCESS end_html %]
