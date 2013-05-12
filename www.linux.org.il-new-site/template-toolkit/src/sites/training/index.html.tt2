@@ -1,6 +1,6 @@
 [%- SET title = 'הדרכה - לינוקס בישראל' -%]
 [%- PROCESS "blocks.tt2" -%]
-[%- PROCESS start_html -%]
+[%- WRAPPER wrap_html -%]
 
 
 <h1>הדרכה</h1>
@@ -73,4 +73,4 @@
 * תיאורי החברות הינם מאת החברות עצמן ובאחריותן בלבד.
 </p>
 
-[% PROCESS end_html %]
+[% END %]

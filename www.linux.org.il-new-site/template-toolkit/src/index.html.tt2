@@ -1,6 +1,6 @@
 [%- SET title = 'לינוקס בישראל' -%]
 [%- PROCESS "blocks.tt2" -%]
-[%- PROCESS start_html -%]
+[%- WRAPPER wrap_html -%]
 
 	<div class="help-box" dir="ltr">
 	Looking for IGLU's site? You can find it at <a href="http://www.iglu.org.il/">www.iglu.org.il</a>.
@@ -71,4 +71,4 @@
 		<a href="[% base_path %]sites/projects">פרויקטים</a>
 </div>
 
-[% PROCESS end_html %]
+[% END %]

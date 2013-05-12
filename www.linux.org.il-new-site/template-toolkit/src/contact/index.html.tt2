@@ -1,6 +1,6 @@
 [%- SET title = 'צרו איתנו קשר' -%]
 [%- PROCESS "blocks.tt2" -%]
-[%- PROCESS start_html -%]
+[%- WRAPPER wrap_html -%]
 
 
 <h1>צרו קשר</h1>
@@ -17,4 +17,4 @@
 </li>
 </ul>
 
-[% PROCESS end_html %]
+[% END %]

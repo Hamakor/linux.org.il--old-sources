@@ -88,5 +88,11 @@
 </html>
 [%- END -%]
 
+[%- BLOCK wrap_html -%]
+[%- PROCESS start_html -%]
+[% content %]
+[%- PROCESS end_html -%]
+[%- END -%]
+
 [%-# vim:ft=tt2html:
 -%]

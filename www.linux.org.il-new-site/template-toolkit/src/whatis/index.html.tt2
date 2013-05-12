@@ -1,6 +1,6 @@
 [%- SET title = 'מהי לינוקס - לינוקס בישראל' -%]
 [%- PROCESS "blocks.tt2" -%]
-[%- PROCESS start_html -%]
+[%- WRAPPER wrap_html -%]
 
 <p>
 אז מה היא בעצם ה"לינוקס" הזאת שכולם מדברים עליה? הנה מספר פרטים, ממש על קצה
@@ -146,4 +146,4 @@ href="http://he.wikipedia.org/wiki/%D7%A7%D7%A8%D7%9F_%D7%95%D7%99%D7%A7%D7%99%D
 </li>
 </ol>
 
-[% PROCESS end_html %]
+[% END %]

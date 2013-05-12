@@ -1,6 +1,6 @@
 [%- SET title = 'קבלת תמיכה בלינוקס - לינוקס בישראל' -%]
 [%- PROCESS "blocks.tt2" -%]
-[%- PROCESS start_html -%]
+[%- WRAPPER wrap_html -%]
 
 <h1>תמיכה</h1>
 
@@ -67,4 +67,4 @@
 
 </div>
 
-[% PROCESS end_html %]
+[% END %]

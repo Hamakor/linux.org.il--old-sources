@@ -1,6 +1,6 @@
 [%- SET title = 'אתרי הקהילה - לינוקס בישראל' -%]
 [%- PROCESS "blocks.tt2" -%]
-[%- PROCESS start_html -%]
+[%- WRAPPER wrap_html -%]
 
 
 <h1>אתרים</h1>
@@ -118,4 +118,4 @@
 		<a href="/">חזרה לעמוד הראשי</a>
 	</div>
 
-[% PROCESS end_html %]
+[% END %]

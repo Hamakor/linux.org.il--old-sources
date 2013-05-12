@@ -1,6 +1,6 @@
 [%- SET title = 'פרוייקטים שיתופים ישראליים - לינוקס בישראל' -%]
 [%- PROCESS "blocks.tt2" -%]
-[%- PROCESS start_html -%]
+[%- WRAPPER wrap_html -%]
 
 	<h1>פרוייקטים</h1>
 
@@ -213,4 +213,4 @@
 </dl></div>
 
 
-[% PROCESS end_html %]
+[% END %]

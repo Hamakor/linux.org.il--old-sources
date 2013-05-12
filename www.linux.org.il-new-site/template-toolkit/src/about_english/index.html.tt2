@@ -1,6 +1,6 @@
 [%- SET title = 'About the site - Linux Israel' -%]
 [%- PROCESS "blocks.tt2" -%]
-[%- PROCESS start_html -%]
+[%- WRAPPER wrap_html -%]
 
 <!-- content -->
 
@@ -84,4 +84,4 @@ You can contact the web site maintainer by email:
 
 </div> [%# dir=ltr %]
 
-[% PROCESS end_html %]
+[% END %]
