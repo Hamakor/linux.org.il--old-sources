@@ -1,6 +1,18 @@
-In order to build the site, type “make” from the command line.
+- In order to build the site, type “./gen-helpers” from the command line,
+followed by “make”.
 
-In order to upload it, type “make upload” (but you may need to have
+- If you get the following error:
+
+```text
+$ make
+Makefile:3: include.mak: No such file or directory
+make: *** No rule to make target `include.mak'.  Stop.
+```
+
+Then you need to type "./gen-helpers" first, which is used to list the
+files that needs to be updated inside “include.mak”.
+
+- In order to upload it, type “make upload” (but you may need to have
 the right permissions).
 
 Dependencies:
