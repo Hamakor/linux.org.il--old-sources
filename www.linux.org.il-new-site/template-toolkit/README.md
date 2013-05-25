@@ -29,3 +29,13 @@ Elsewhere, consult your distribution's convention for installing packages
 or use:
 
     cpan Template File::Find::Object
+
+<h2>How to edit the source</h2>
+
+For each of the dest/**/*.html files the source is found in src/**/*.html.tt2.
+Most of the source is regular XHTML , but Template Toolkit 2 directives can
+be used too with “[%” and “%]” markers. See:
+
+<a href="http://www.template-toolkit.org/">http://www.template-toolkit.org/</a>
+
+
