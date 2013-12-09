@@ -5,6 +5,7 @@ include include.mak
 HTACCESS_DEST = dest/.htaccess
 
 UPLOAD_URL = hostgator:public_html/temp-www.linux.org.il-new-site/
+PRODUCTION_UPLOAD_URL = gnu.hamakor.org.il:/var/www/html/linux.org.il
 
 all: $(DEST_HTMLS) $(HTACCESS_DEST)
 
@@ -18,3 +19,6 @@ $(HTACCESS_DEST): htaccess.conf
 
 upload: all
 	rsync -a -v --progress --inplace --exclude='**~' --exclude='**/.*.swp' $(RSYNC_EXTRA_OPTS) dest/ $(UPLOAD_URL)
+
+upload_production: all
+	rsync -a -v --progress --inplace --exclude='**~' --exclude='**/.*.swp' $(RSYNC_EXTRA_OPTS) dest/ $(PRODUCTION_UPLOAD_URL)
