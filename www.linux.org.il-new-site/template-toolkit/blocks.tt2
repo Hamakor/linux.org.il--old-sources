@@ -48,7 +48,7 @@
 <div id="menu">
 <div class="item"><a href="[% base_path %]" title="העמוד הראשי של האתר">עמוד ראשי</a>&#160;[% bullet %]</div>
 <div class="item"><a href="[% base_path %]whatis" title="אודות לינוקס ושימושיה.">מהי לינוקס</a>&#160;[% bullet %]</div>
-<div class="item"><a href="[% base_path %]get" title="אתרים מהם ניתן להוריד לינוקס וארגונים מהם ניתן לרכוש.">הורדה / רכישה</a>&#160;[% bullet %]</div>
+<div class="item"><a href="[% base_path %]get" title="אתרים מהם ניתן להוריד לינוקס וארגונים מהם ניתן לרכוש.">הורדה חינם</a>&#160;[% bullet %]</div>
 <div class="item">
 <a href="[% base_path %]sites/sites/">אתרים</a> [% bullet %]
 </div>
