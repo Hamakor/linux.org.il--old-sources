@@ -26,29 +26,19 @@
 	<table class="sites-table">
 <tr>
 <td class="site-logo-cell">
-<a href="http://www.penguin.org.il/"><img src="site_images/penguin.png" alt="הפינגווין" class="site-logo" /></a><div class="site-log-description-block">"אתר של כמה חבר׳ה עם שריטה בצורת פינגווין".</div>
-</td>
-<td class="site-logo-cell">
 <a href="http://www.whatsup.org.il/"><img src="site_images/whatsup.png" alt="WhatsUp" class="site-logo" /></a><div class="site-log-description-block">אתר הלינוקס העברי שלך - בעברית !</div>
 </td>
 <td class="site-logo-cell">
 <a href="http://linmagazine.co.il/"><img src="site_images/linmagazine.png" alt="לינמגזין" class="site-logo" /></a><div class="site-log-description-block">מגזין רשת בנושאי תרבות ותכנה חופשית</div>
 </td>
-</tr>
-<tr>
 <td class="site-logo-cell">
 <a href="http://ubuntu-il.org/"><img src="site_images/ubuntu-il.png" alt="אובונטו ישראל" class="site-logo" /></a><div class="site-log-description-block">אובונטו ישראל - לינוקס לבני אדם</div>
 </td>
-<td class="site-logo-cell">
-<a href="http://www.chameleon.org.il/"><img src="site_images/chameleon.png" alt="Chameleon.org.il" class="site-logo" /></a><div class="site-log-description-block">פורטל ישראלי לסוזה לינוקס וקוד פתוח</div>
-</td>
-<td class="site-logo-cell">
-<a href="http://www.archlinux.org.il/"><img src="site_images/archlinux.png" alt='Archlinux - פשוט לינוקס"' class="site-logo" /></a><div class="site-log-description-block">
-הפצת לינוקס מהירה בלי יותר מדי שמונצס.
-</div>
-</td>
 </tr>
 <tr>
+<td class="site-logo-cell">
+<a href="http://www.chameleon.org.il/phpBB2/index.php"><img src="site_images/chameleon.png" alt="Chameleon.org.il" class="site-logo" /></a><div class="site-log-description-block">פורטל ישראלי לסוזה לינוקס וקוד פתוח</div>
+</td>
 <td class="site-logo-cell">
 <a href="http://www.hamakor.org.il/"><img src="site_images/hamakor.png" alt="המקור - עמותה ישראלית לתכנה חופשית ולקוד-מקור פתוח" class="site-logo" /></a><div class="site-log-description-block">עמותה ישראלית לתכנה חופשית ולקוד־מקור פתוח</div>
 </td>
@@ -60,6 +50,17 @@
 </tr>
 
 </table>
+
+[% BLOCK removed_sites %]
+
+<td class="site-logo-cell">
+<a href="http://www.penguin.org.il/"><img src="site_images/penguin.png" alt="הפינגווין" class="site-logo" /></a><div class="site-log-description-block">"אתר של כמה חבר׳ה עם שריטה בצורת פינגווין".</div>
+</td>
+<td class="site-logo-cell">
+<a href="http://www.archlinux.org.il/"><img src="site_images/archlinux.png" alt='Archlinux - פשוט לינוקס"' class="site-logo" /></a><div class="site-log-description-block">
+הפצת לינוקס מהירה בלי יותר מדי שמונצס.</div>
+</td>
+[% END %]
 
 <div class="more-links">
 <a href="[% base_path %]sites/sites">אתרים</a>
