@@ -10,6 +10,24 @@
 </table>
 [%- END -%]
 
+[%- BLOCK site_source_code -%]
+
+<h2>קוד המקור של האתר</h2>
+
+<p>
+קוד המקור של האתר מתוחזק במחסן ניהול גרסאות )git repository( בגיטהאב:
+</p>
+
+<p>
+<a href="https://github.com/Hamakor/linux.org.il">https://github.com/Hamakor/linux.org.il</a>
+</p>
+
+<p>
+אתם מוזמנים לשלוח אליו בקשות משיכה.
+</p>
+
+[%- END -%]
+
 [%- BLOCK start_html -%]
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE

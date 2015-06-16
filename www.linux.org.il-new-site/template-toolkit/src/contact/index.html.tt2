@@ -17,4 +17,6 @@
 </li>
 </ul>
 
+[% INCLUDE site_source_code %]
+
 [% END %]

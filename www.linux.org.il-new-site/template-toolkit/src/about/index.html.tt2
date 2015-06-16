@@ -30,6 +30,7 @@
 <a href="http://perl-begin.org/">Perl</a> (שפת תכנות).
 </p>
 
+[% INCLUDE site_source_code %]
 
 <h1>האנשים מאחורי האתר</h1>
 
