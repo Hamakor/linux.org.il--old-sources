@@ -11,13 +11,6 @@
 <dt>
 [% icon_he %]
 			&lrm;&rlm;
-			<a href="http://www.penguin.org.il/">הפינגווין</a>
-			&lrm;&rlm;
-			</dt>
-<dd>אתר מדריכים בעברית לכל השימושים בלינוקס החל ממה זה לינוקס, דרך התקנה וכלה בהפעלת שירותים מתקדמים. האתר נבנה ומתוחזק על ידי קבוצת מתנדבים עם שריטה בצורת פינגווין.</dd>
-<dt>
-[% icon_he %]
-			&lrm;&rlm;
 			<a href="http://www.whatsup.org.il/">WhatsUp</a>
 			&lrm;&rlm;
 			</dt>
