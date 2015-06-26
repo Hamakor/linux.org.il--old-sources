@@ -53,13 +53,6 @@
 <dt>
 [% icon_he %]
 			&lrm;&rlm;
-			<a href="http://jerusalem.linux.org.il/">מועדון הלינוקס הירושלמי</a>
-			&lrm;&rlm;
-			</dt>
-<dd></dd>
-<dt>
-[% icon_he %]
-			&lrm;&rlm;
 			<a href="http://linmagazine.co.il/">לינמגזין</a>
 			&lrm;&rlm;
 			</dt>
