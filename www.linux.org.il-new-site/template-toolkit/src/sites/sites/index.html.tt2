@@ -84,7 +84,7 @@
 <dt>
 [% icon_he %]
 			&lrm;&rlm;
-			<a href="http://www.startcom.org/?lang=he">StartCom Linux</a>
+			<a href="http://linux.startcom.org/">StartCom Linux</a>
 			&lrm;&rlm;
 			</dt>
 <dd>הפצת לינוקס ישראלית המבוססת על הפצת RedHat Enterprise וכוללת גם מרכיבים יחודיים משלה (כגון "מהדורת המולטימדיה").</dd>
