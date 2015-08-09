@@ -103,6 +103,7 @@ You can contact the web site maintainer by email:
 <a href="http://www.linux.org.il/">Back to main page</a>
 </div>
 
-</div> [%# dir=ltr %]
+</div>[%- # dir=ltr
+-%]
 
 [% END %]
