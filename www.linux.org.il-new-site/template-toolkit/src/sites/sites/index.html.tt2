@@ -81,15 +81,8 @@
 			&lrm;&rlm;
 			</dt>
 <dd>מקבץ של בלוגים של אנשי קהיליית התוכנה החופשית והקוד הפתוח בישראל</dd>
-<dt>
-[% icon_he %]
-			&lrm;&rlm;
-			<a href="http://www.archlinux.org.il/">Archlinux - "פשוט לינוקס"</a>
-			&lrm;&rlm;
-			</dt>
-<dd>
-הפצת לינוקס מהירה בלי יותר מדי שמונצס.
-</dd>
+
+
 <dt>
 [% icon_he %]
 			&lrm;&rlm;
@@ -114,4 +107,17 @@
 		<a href="/">חזרה לעמוד הראשי</a>
 	</div>
 
+[% BLOCK removed_sites %]
+
+<dt>
+[% icon_he %]
+			&lrm;&rlm;
+			<a href="http://www.archlinux.org.il/">Archlinux - "פשוט לינוקס"</a>
+			&lrm;&rlm;
+			</dt>
+<dd>
+הפצת לינוקס מהירה בלי יותר מדי שמונצס.
+</dd>
+
+[% END %]
 [% END %]
