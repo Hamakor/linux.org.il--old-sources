@@ -23,5 +23,5 @@ upload: all
 upload_production: all
 	rsync -a -v --progress --inplace --exclude='**~' --exclude='**/.*.swp' $(RSYNC_EXTRA_OPTS) dest/ $(PRODUCTION_UPLOAD_URL)
 
-test:
+test: all
 	prove Tests/*.t
