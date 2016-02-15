@@ -30,6 +30,11 @@ or use:
 
     cpan Template File::Find::Object
 
+<h2>Running the test suite</h2>
+
+To run the test type “make test” (after you have run “./gen-helpers”).
+It requires some extra CPAN modules.
+
 <h2>How to edit the source</h2>
 
 For each of the dest/**/*.html files the source is found in src/**/*.html.tt2.
