@@ -5,5 +5,6 @@ before_install:
     - sudo apt-get install -y ack-grep cpanminus findutils libperl-dev make perl
     - sudo dpkg-divert --local --divert /usr/bin/ack --rename --add /usr/bin/ack-grep
 install:
+    - sudo cpanm Alien::Tidyp
     - sudo cpanm File::Copy File::Find::Object File::Find::Object::Rule File::Path File::Spec HTML::Tidy IO::All Template Test::More Test::TrailingSpace
 script: "cd www.linux.org.il-new-site/template-toolkit/ && ./gen-helpers && make && make test"
