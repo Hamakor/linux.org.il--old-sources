@@ -25,6 +25,14 @@ On Mandriva and Mageia, type:
 
     sudo urpmi perl-Template perl-File-Find-Object
 
+On EL-based distributions (such as RHEL, CentOS, SciLinux, etc) and on Fedora up to 21, type:
+
+    sudo  yum install perl-Template-Toolkit perl-File-Find-Object
+
+On modern Fedora distributions, type
+
+    sudo dnf erl-Template-Toolkit perl-File-Find-Object
+
 Elsewhere, consult your distribution's convention for installing packages
 or use:
 
