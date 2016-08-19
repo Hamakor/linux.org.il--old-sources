@@ -6,4 +6,4 @@ This repository contains the sources for the http://www.linux.org.il/ site.
 
 There's more to it under `./www.linux.org.il-new-site/template-toolkit/`.
 
-See the `README.md` there for instructions about how to build the site.
+See the [`README.md`](./www.linux.org.il-new-site/template-toolkit/README.md) there for instructions about how to build the site.
