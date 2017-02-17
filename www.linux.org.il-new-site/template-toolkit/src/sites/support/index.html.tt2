@@ -28,7 +28,7 @@
 [% he_icon %]
 <a href="http://www.fxp.co.il/forumdisplay.php?f=940">פורום Linux באתר FXP</a>
 </dt>
-<dd></dd>
+<dd>פורום ווב</dd>
 
 
 <dt>
@@ -41,14 +41,14 @@
 [% he_icon %]
 <a href="http://www.fresh.co.il/vBulletin/forumdisplay.php?f=27">פורום לינוקס וקוד פתוח באתר Fresh</a>
 </dt>
-<dd></dd>
+<dd>פורום ווב</dd>
 
 
 <dt>
 [% he_icon %]
 <a href="http://hwzone.co.il/community/index.php?board=20.0">פורום לינוקס, יוניקס ומערכות הפעלה אחרות באתר HWZone</a>
 </dt>
-<dd></dd>
+<dd>פורום ווב</dd>
 
 <dt>
 [% en_icon %]
@@ -61,7 +61,7 @@
 [% he_icon %]
 <a href="http://www.tapuz.co.il/forums/forum.asp?forum=236">פורום לינוקס באתר תפוז</a>
 </dt>
-<dd></dd>
+<dd>פורום ווב</dd>
 
 </dl>
 

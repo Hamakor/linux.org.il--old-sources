@@ -111,14 +111,14 @@
 			<a href="http://perl.org.il/israeli-projects.html">קטלוג המיזמים  הישראליים בשפת פרל באתר perl.org.il</a>
 			&lrm;&rlm;
 			</dt>
-<dd></dd>
+<dd>פרוייקטים בשפת פרל</dd>
 <dt>
 [% icon_en %]
 			&lrm;&rlm;
 			<a href="http://www.shlomifish.org/open-source/resources/israel/list-of-projects/">קטלוג הפרויקטים הישראליים של Hackers-IL</a>
 			&lrm;&rlm;
 			</dt>
-<dd></dd>
+<dd>פרוייקטים ישראליים אחרים</dd>
 <dt>
 [% icon_en %]
 			&lrm;&rlm;
@@ -174,7 +174,7 @@
 			<a href="http://xparam.sourceforge.net/">XParam</a>
 			&lrm;&rlm;
 			</dt>
-<dd></dd>
+<dd>ספריה לסרייליזציה ודה-סרייליזציה.</dd>
 <dt>
 [% icon_en %]
 			&lrm;&rlm;

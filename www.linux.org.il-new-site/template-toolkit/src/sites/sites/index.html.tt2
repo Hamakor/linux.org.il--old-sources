@@ -35,14 +35,14 @@
 			<a href="http://www.perl.org.il/">The Israeli Perl Mongers</a>
 			&lrm;&rlm;
 			</dt>
-<dd></dd>
+<dd>שוחרי שפת פרל בישראל</dd>
 <dt>
 [% icon_en %]
 			&lrm;&rlm;
 			<a href="http://www.cs.tau.ac.il/telux/">מועדון הלינוקס התל-אביבי</a>
 			&lrm;&rlm;
 			</dt>
-<dd></dd>
+<dd>הרצאות ופעילות בנושאי קוד פתוח באזור תל אביב</dd>
 <dt>
 [% icon_he %]
 			&lrm;&rlm;
@@ -56,7 +56,7 @@
 			<a href="http://ubuntu-il.org/">אובונטו ישראל</a>
 			&lrm;&rlm;
 			</dt>
-<dd></dd>
+<dd>קהילה ישראלית להפצה הפופולרית</dd>
 <dt>
 [% icon_he %]
 			&lrm;&rlm;

@@ -42,7 +42,7 @@
 <link rel="stylesheet" type="text/css" href="[% base_path %]layout_style.css" />
 <link rel="stylesheet" type="text/css" href="[% base_path %]main_style.css" />
 <link rel="icon" href="[% base_path %]favicon.ico" type="image/x-icon" />
-<link rel="top" href="[% base_path %]" title="העמוד הראשי" />
+<link rel="top" href="[% base_path || "/" %]" title="העמוד הראשי" />
 <!--[if lt IE 8]>
 <link rel="stylesheet" href="[% base_path %]layout_style_ie.css">
 <![endif]-->
@@ -60,7 +60,7 @@
 [%- SET bullet = "<img src=\"" _ base_path _ "menu_bullet.png\" alt=\"•\" />" -%]
 
 <div id="menu">
-<div class="item"><a href="[% base_path %]" title="העמוד הראשי של האתר">עמוד ראשי</a>&#160;[% bullet %]</div>
+<div class="item"><a href="[% base_path || "/" %]" title="העמוד הראשי של האתר">עמוד ראשי</a>&#160;[% bullet %]</div>
 <div class="item"><a href="[% base_path %]whatis" title="אודות לינוקס ושימושיה.">מהי לינוקס</a>&#160;[% bullet %]</div>
 <div class="item"><a href="[% base_path %]get" title="אתרים מהם ניתן להוריד לינוקס וארגונים מהם ניתן לרכוש.">הורדה חינם</a>&#160;[% bullet %]</div>
 <div class="item">
