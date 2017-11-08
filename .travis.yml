@@ -7,5 +7,5 @@ before_install:
 install:
     - sudo cpanm Alien::Tidyp
     - sudo cpanm --notest HTML::Tidy
-    - sudo cpanm File::Copy File::Find::Object File::Find::Object::Rule File::Path File::Spec  HTML::TokeParser IO::All Template Test::HTML::Tidy::Recursive Test::More Test::TrailingSpace
+    - sudo cpanm File::Copy File::Find::Object File::Find::Object::Rule File::Path File::Spec  HTML::TokeParser IO::All Template Test::HTML::Recursive::DeprecatedTags Test::HTML::Tidy::Recursive Test::More Test::TrailingSpace
 script: "cd www.linux.org.il-new-site/template-toolkit/ && ./gen-helpers && make && make test"
