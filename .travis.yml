@@ -2,7 +2,7 @@ os: linux
 dist: trusty
 before_install:
     - sudo apt-get update -qq
-    - sudo apt-get install -y ack-grep cpanminus findutils libperl-dev make perl
+    - sudo apt-get --no-install-recommends install -y ack-grep cpanminus findutils libperl-dev make perl
     - sudo dpkg-divert --local --divert /usr/bin/ack --rename --add /usr/bin/ack-grep
 install:
     - sudo cpanm Alien::Tidyp
