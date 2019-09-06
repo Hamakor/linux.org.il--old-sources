@@ -1,5 +1,5 @@
 os: linux
-dist: trusty
+dist: bionic
 before_install:
     - sudo apt-get update -qq
     - sudo apt-get --no-install-recommends install -y ack-grep cpanminus findutils libperl-dev make perl
@@ -8,4 +8,4 @@ install:
     - sudo cpanm Alien::Tidyp
     - sudo cpanm --notest HTML::Tidy
     - sudo cpanm File::Copy File::Find::Object File::Find::Object::Rule File::Path File::Spec  HTML::TokeParser IO::All Template Test::HTML::Recursive::DeprecatedTags Test::HTML::Tidy::Recursive Test::HTML::Tidy::Recursive::Strict Test::More Test::TrailingSpace
-script: "cd www.linux.org.il-new-site/template-toolkit/ && ./gen-helpers && make && make test"
+script: "cd www.linux.org.il-oldish-site/template-toolkit/ && ./gen-helpers && make && make test"
