@@ -2,28 +2,28 @@
 [%- PROCESS "blocks.tt2" -%]
 [%- WRAPPER wrap_html -%]
 
-	<div class="help-box" dir="ltr">
-	Looking for IGLU's site? You can find it at <a href="http://www.iglu.org.il/">www.iglu.org.il</a>.
-	</div>
+<div class="help-box" dir="ltr">
+Looking for IGLU's site? You can find it at <a href="http://www.iglu.org.il/">www.iglu.org.il</a>.
+</div>
 
-	<!-- Events section -->
+<!-- Events section -->
 
-	<h1>ארועים</h1>
+<h1>ארועים</h1>
 
 
-	<a href="http://ap.hamakor.org.il/">לאתר כנס אוגוסט פינגווין</a>
-	<br/>
+<a href="http://ap.hamakor.org.il/">לאתר כנס אוגוסט פינגווין</a>
+<br/>
 
-	ראו
+ראו
 <a href="http://www.whatsup.co.il/index.php?module=PostCalendar&amp;func=view&amp;viewtype=month">
 תאריכון באתר Whatsup
 </a>
 
-	<!-- Sites section -->
+<!-- Sites section -->
 
-	<h1>אתרים</h1>
+<h1>אתרים</h1>
 
-	<table class="sites-table">
+<table class="sites-table">
 <tr>
 <td class="site-logo-cell">
 <a href="http://www.whatsup.org.il/"><img src="site_images/whatsup.png" alt="WhatsUp" class="site-logo" /></a><div class="site-log-description-block">אתר הלינוקס העברי שלך - בעברית !</div>

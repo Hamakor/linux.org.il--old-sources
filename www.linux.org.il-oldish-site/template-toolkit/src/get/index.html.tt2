@@ -70,8 +70,13 @@
 </li>
 
 <li><h2><a href="http://www.linuxmint.com/">Linux Mint</a></h2>
-  <p>הפצת לינוקס מודרנית המבוססת על אובונטו ודביאן.</p>
-  <p class="more-links">מידע נוסף: <a href="http://www.linuxmint.com/">אתר הבית</a> | <a href="http://www.linuxmint.com/download.php">הורדה</a></p>
+<p>
+הפצת לינוקס מודרנית המבוססת על אובונטו ודביאן.
+</p>
+
+<p class="more-links">
+מידע נוסף: <a href="http://www.linuxmint.com/">אתר הבית</a> | <a href="http://www.linuxmint.com/download.php">הורדה</a>
+</p>
 </li>
 
 </ul>

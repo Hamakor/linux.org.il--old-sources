@@ -12,31 +12,31 @@
 <dl class="sites-list">
 <dt>
 [% icon_he %]
-			&lrm;&rlm;
-			<a href="http://www.guides.co.il/linux.php">מדריך הטרמפיסט למחשבים</a>
-			&lrm;&rlm;
-			</dt>
+&lrm;&rlm;
+<a href="http://www.guides.co.il/linux.php">מדריך הטרמפיסט למחשבים</a>
+&lrm;&rlm;
+</dt>
 <dd>מציע מדריכים בנושאי מיחשוב שונים, ביניהם לינוקס.</dd>
 <dt>
 [% icon_he %]
-			&lrm;&rlm;
-			<a href="http://www.guides4u.co.il/">Guides For You</a>
-			&lrm;&rlm;
-			</dt>
+&lrm;&rlm;
+<a href="http://www.guides4u.co.il/">Guides For You</a>
+&lrm;&rlm;
+</dt>
 <dd>מציע מדריכים בנושאי מיחשוב שונים, ביניהם לינוקס.</dd>
 <dt>
 [% icon_he %]
-			&lrm;&rlm;
-			<a href="http://www.internet-israel.com/internet/category/%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D/mysql-%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D/">המדריך ללימוד MySQL של "אינטרנט ישראל"</a>
-			&lrm;&rlm;
-			</dt>
+&lrm;&rlm;
+<a href="http://www.internet-israel.com/internet/category/%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D/mysql-%D7%9E%D7%93%D7%A8%D7%99%D7%9B%D7%99%D7%9D/">המדריך ללימוד MySQL של "אינטרנט ישראל"</a>
+&lrm;&rlm;
+</dt>
 <dd>מדריך ללימוד מסד הנתונים MySQL בעברית באתר "אינטרנט ישראל".</dd>
 <dt>
 [% icon_he %]
-			&lrm;&rlm;
-			<a href="http://welcome.linux.org.il/">סדרת הרצאות "ברוכים הבאים ללינוקס"</a>
-			&lrm;&rlm;
-			</dt>
+&lrm;&rlm;
+<a href="http://welcome.linux.org.il/">סדרת הרצאות "ברוכים הבאים ללינוקס"</a>
+&lrm;&rlm;
+</dt>
 <dd>
 קהילת הלינוקס והקוד הפתוח בישראל גאה להכריז על תחילתה של סדרת הרצאות
 למתחילים בנושא לינוקס. ההרצאות יסקרו נושאים בסיסיים בלינוקס על-מנת לספק
@@ -53,17 +53,17 @@
 <div style="margin-right:20px"><dl class="sites-list">
 <dt>
 [% icon_he %]
-			&lrm;&rlm;
-			<a href="http://www.sivan.co.il/">סיון ברייס</a>
-			&lrm;&rlm;
-			</dt>
+&lrm;&rlm;
+<a href="http://www.sivan.co.il/">סיון ברייס</a>
+&lrm;&rlm;
+</dt>
 <dd>חברת סיון ברייס מנהלת מרכז הכשרה והסבה המציע בין השאר קורסים בנושאי לינוקס והסמכת RHCE (מהנדס מוסמך של Red Hat).</dd>
 <dt>
 [% icon_en %]
-			&lrm;&rlm;
-			<a href="http://www.pti.co.il/">Perl Training Israel</a>
-			&lrm;&rlm;
-			</dt>
+&lrm;&rlm;
+<a href="http://www.pti.co.il/">Perl Training Israel</a>
+&lrm;&rlm;
+</dt>
 <dd>חברה המציעה שירותי יעוץ, פיתוח, תמיכה והדרכה בשפת Perl.</dd>
 </dl>
 

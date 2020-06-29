@@ -5,53 +5,53 @@ and formatting of components which appear on all pages.
 
 body
 {
-	margin:0px;
-	padding:0px; /* Opera */
+    margin:0px;
+    padding:0px; /* Opera */
 }
 
 #sidebar
 {
-	position:fixed;
-	right:0px; /* Opera sucks */
-	background-image:url('side.png');
-	background-repeat:no-repeat;
-	background-position:right top;
-	width:145px;
-	height:510px;
+    position:fixed;
+    right:0px; /* Opera sucks */
+    background-image:url('side.png');
+    background-repeat:no-repeat;
+    background-position:right top;
+    width:145px;
+    height:510px;
 }
 
 #menu
 {
-	margin-top:130px;
-	margin-left:20px;
+    margin-top:130px;
+    margin-left:20px;
 }
 
 #content
 {
-	padding:20px;
-	margin-right:145px;
+    padding:20px;
+    margin-right:145px;
 }
 
 #menu .item
 {
-	display:block;
-	text-align:left;
-	margin-top:3px;
-	margin-bottom:3px;
+    display:block;
+    text-align:left;
+    margin-top:3px;
+    margin-bottom:3px;
 }
 
 #menu .item A
 {
-	color:black;
+    color:black;
 }
 
 #footnotes
 {
-	text-align:left;
-	margin-top:50px;
-	border-top:1px solid black;
-	padding: 0.3em;
-	font-size:smaller;
+    text-align:left;
+    margin-top:50px;
+    border-top:1px solid black;
+    padding: 0.3em;
+    font-size:smaller;
 }
 
 .site-logo-cell
