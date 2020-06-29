@@ -25,4 +25,4 @@ echo "SRC_IMAGES = $(_find_images | _backslash_filter)"
 echo
 ) > include.mak
 
-echo "include lib/_Main.mak" > Makefile
+echo "include lib/make/main.mak" > Makefile
