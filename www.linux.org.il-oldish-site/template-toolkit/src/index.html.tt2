@@ -23,7 +23,7 @@
 
 	<h1>אתרים</h1>
 
-	<table class="sites-table" summary="מספר קישורים לאתרים ישראלים">
+	<table class="sites-table">
 <tr>
 <td class="site-logo-cell">
 <a href="http://www.whatsup.org.il/"><img src="site_images/whatsup.png" alt="WhatsUp" class="site-logo" /></a><div class="site-log-description-block">אתר הלינוקס העברי שלך - בעברית !</div>
