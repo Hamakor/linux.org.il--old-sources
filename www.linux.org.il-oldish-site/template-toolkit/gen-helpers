@@ -23,6 +23,6 @@ echo "DEST_HTMLS = $(_finder | perl -lape 's/\.tt2//; s{^src/}{dest/}'| _backsla
 echo
 echo "SRC_IMAGES = $(_find_images | _backslash_filter)"
 echo
-) > include.mak
+) > lib/make/include.mak
 
 echo "include lib/make/main.mak" > Makefile

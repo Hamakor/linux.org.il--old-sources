@@ -1,7 +1,7 @@
 RSYNC_EXTRA_OPTS =
 SHELL = /bin/bash
 
-include include.mak
+include lib/make/include.mak
 
 HTACCESS_DEST = dest/.htaccess
 
