@@ -6,7 +6,7 @@ before_install:
     - sudo dpkg-divert --local --divert /usr/bin/ack --rename --add /usr/bin/ack-grep
 install:
     - which python3
-    - sudo `which python3` -m pip install vnu_validator
+    - sudo `which python3` -m pip install pycotap vnu_validator
     - sudo cpanm Alien::Tidyp
     - sudo cpanm --notest HTML::Tidy
     - sudo cpanm File::Copy File::Find::Object File::Find::Object::Rule File::Path File::Spec  HTML::TokeParser IO::All Template Test::HTML::Recursive::DeprecatedTags Test::HTML::Tidy::Recursive Test::HTML::Tidy::Recursive::Strict Test::More Test::TrailingSpace
