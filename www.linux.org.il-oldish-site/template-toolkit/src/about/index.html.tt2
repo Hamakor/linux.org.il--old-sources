@@ -21,10 +21,10 @@
 
 <p>
 בהקמת האתר ולשם הרצתו נעשה שימוש בתוכנות החופשיות הבאות:
-<a href="http://httpd.apache.org/">שרת Apache</a>,&rlm;
-<a href="http://www.php.net/">PHP</a> (מנוע אפליקציות אינטרנט),&rlm;
-<a href="http://www.xmlsoft.org/">LibXML</a>&rlm; (תמיכה ב-XML/XSLT),&rlm;
-<a href="http://www.gimp.org/">The GIMP</a>&rlm; (תוכנה לעריכת תמונה),&rlm;
+<a href="http://httpd.apache.org/">שרת Apache</a>,‏
+<a href="http://www.php.net/">PHP</a> (מנוע אפליקציות אינטרנט),‏
+<a href="http://www.xmlsoft.org/">LibXML</a>‏ (תמיכה ב-XML/XSLT),‏
+<a href="http://www.gimp.org/">The GIMP</a>‏ (תוכנה לעריכת תמונה),‏
 <a href="http://kate.kde.org/">Kate</a> (עורך טקסט),
 <a href="http://www.vim.org/">Vim</a> (עורך טקסט),
 <a href="http://perl-begin.org/">Perl</a> (שפת תכנות).
@@ -40,22 +40,22 @@
 
 <ul>
 <li>
-איליה קונסטנטינוב &ndash;
+איליה קונסטנטינוב &#x2013;
 עיצוב גראפי ותכנות
 </li>
 
 <li>
-אורנה אגמון &ndash;
+אורנה אגמון &#x2013;
 תרגום
 </li>
 
 <li>
-חרות מעוז &ndash;
+חרות מעוז &#x2013;
 תכנים
 </li>
 
 <li>
-שלומי פיש &ndash;
+שלומי פיש &#x2013;
 תחזוקה ועדכון
 </li>
 </ul>
@@ -69,7 +69,7 @@
 <li>
 <a href="http://www.hamakor.org.il/">המקור</a>,
 עמותה ישראלית לתוכנה חופשית ולקוד־מקור פתוח
-&ndash;
+&#x2013;
 סיפקה מקום בשרת שלה.
 </li>
 

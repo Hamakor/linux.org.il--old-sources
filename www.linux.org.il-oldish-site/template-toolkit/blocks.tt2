@@ -31,7 +31,7 @@
 [%- BLOCK start_html -%]
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
+<html dir="rtl" xmlns="http://www.w3.org/1999/xhtml" xml:lang="he-IL">
 <head>
 <title>[% title %]</title>
 <meta charset="utf-8" />
@@ -40,7 +40,6 @@
 <link rel="stylesheet" type="text/css" href="[% base_path %]layout_style.css" />
 <link rel="stylesheet" type="text/css" href="[% base_path %]main_style.css" />
 <link rel="icon" href="[% base_path %]favicon.ico" type="image/x-icon" />
-<link rel="top" href="[% base_path || "/" %]" title="העמוד הראשי" />
 </head>
 
 <body dir="rtl">
@@ -87,9 +86,9 @@
 		<!-- Credit notices -->
 		<div id="footnotes">
 			<a href="[% base_path %]about">על אודות האתר</a>
-			&nbsp;|&nbsp;
+			|
 			<a href="[% base_path %]about_english" dir="ltr">About the site (English info)</a>
-			&nbsp;|&nbsp;
+			|
 			<a href="[% base_path %]contact">כתבו לנו</a>
 		</div>
 	</body>

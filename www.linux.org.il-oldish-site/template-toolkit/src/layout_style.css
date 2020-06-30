@@ -54,6 +54,12 @@ body
     font-size:smaller;
 }
 
+#footnotes a
+{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 .site-logo-cell
 {
     vertical-align: top;
