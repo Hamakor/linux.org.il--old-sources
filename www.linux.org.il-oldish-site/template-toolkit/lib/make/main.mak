@@ -12,7 +12,7 @@ all: $(DEST_HTMLS) $(HTACCESS_DEST)
 
 PROCESS_SCRIPT = process.pl
 
-$(DEST_HTMLS): dest/%.html: src/%.html.tt2 blocks.tt2 $(SRC_IMAGES) $(PROCESS_SCRIPT)
+$(DEST_HTMLS): dest/%.html: src/%.html.tt2 lib/blocks.tt2 $(SRC_IMAGES) $(PROCESS_SCRIPT)
 	perl $(PROCESS_SCRIPT)
 
 $(HTACCESS_DEST): htaccess.conf

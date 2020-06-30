@@ -14,7 +14,7 @@ use File::Copy qw( copy );
 
 my $template = Template->new(
     {
-        INCLUDE_PATH => ".",
+        INCLUDE_PATH => [ "./", "./lib", ],
         POST_CHOMP   => 1,
         RELATIVE     => 1,
         ENCODING     => 'utf8',
