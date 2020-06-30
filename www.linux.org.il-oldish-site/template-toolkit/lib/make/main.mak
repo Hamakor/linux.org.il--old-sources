@@ -1,4 +1,5 @@
 RSYNC_EXTRA_OPTS =
+SHELL = /bin/bash
 
 include include.mak
 
