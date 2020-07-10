@@ -98,6 +98,13 @@ You can contact the web site maintainer by email:
 <a href="http://www.linux.org.il/">Back to main page</a>
 </div>
 
+<p>
+The site's source code is available in a GitHub repository:
+</p>
+
+<p>
+<a href="https://github.com/Hamakor/linux.org.il--old-sources">https://github.com/Hamakor/linux.org.il--old-sources</a>
+</p>
 </div>[%- # dir=ltr
 -%]
 
