@@ -3,7 +3,7 @@
 [%- WRAPPER wrap_html -%]
 
 <div class="help-box" dir="ltr">
-Looking for IGLU's site? You can find it at <a href="http://www.iglu.org.il/">www.iglu.org.il</a>.
+Looking for IGLU's site? You can find it at <a href="https://www.shlomifish.org/IGLU-Site/">its temporary location</a>.
 </div>
 
 <!-- Events section -->
