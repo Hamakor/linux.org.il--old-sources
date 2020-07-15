@@ -10,14 +10,19 @@ Looking for IGLU's site? You can find it at <a href="https://www.shlomifish.org/
 
 <h1>ארועים</h1>
 
-
+<p>
 <a href="http://ap.hamakor.org.il/">לאתר כנס אוגוסט פינגווין</a>
-<br/>
+</p>
+
+[% IF 0 # Broken link.
+%]
 
 ראו
 <a href="http://www.whatsup.co.il/index.php?module=PostCalendar&amp;func=view&amp;viewtype=month">
 תאריכון באתר Whatsup
 </a>
+[% END %]
+
 
 <!-- Sites section -->
 
@@ -28,24 +33,42 @@ Looking for IGLU's site? You can find it at <a href="https://www.shlomifish.org/
 <td class="site-logo-cell">
 <a href="http://www.whatsup.org.il/"><img src="site_images/whatsup.png" alt="WhatsUp" class="site-logo" /></a><div class="site-log-description-block">אתר הלינוקס העברי שלך - בעברית !</div>
 </td>
+[% IF 0 # Broken links.
+%]
 <td class="site-logo-cell">
 <a href="http://linmagazine.co.il/"><img src="site_images/linmagazine.png" alt="לינמגזין" class="site-logo" /></a><div class="site-log-description-block">מגזין רשת בנושאי תרבות ותכנה חופשית</div>
 </td>
 <td class="site-logo-cell">
 <a href="http://ubuntu-il.org/"><img src="site_images/ubuntu-il.png" alt="אובונטו ישראל" class="site-logo" /></a><div class="site-log-description-block">אובונטו ישראל - לינוקס לבני אדם</div>
 </td>
-</tr>
-<tr>
-<td class="site-logo-cell">
-<a href="http://www.chameleon.org.il/phpBB2/index.php"><img src="site_images/chameleon.png" alt="Chameleon.org.il" class="site-logo" /></a><div class="site-log-description-block">פורטל ישראלי לסוזה לינוקס וקוד פתוח</div>
-</td>
+[% END %]
 <td class="site-logo-cell">
 <a href="http://www.hamakor.org.il/"><img src="site_images/hamakor.png" alt="המקור - עמותה ישראלית לתכנה חופשית ולקוד-מקור פתוח" class="site-logo" /></a><div class="site-log-description-block">עמותה ישראלית לתכנה חופשית ולקוד־מקור פתוח</div>
 </td>
+</tr>
+<tr>
+[% IF 0 # Broken links.
+%]
+
 <td class="site-logo-cell">
+<a href="http://www.chameleon.org.il/phpBB2/index.php"><img src="site_images/chameleon.png" alt="Chameleon.org.il" class="site-logo" /></a><div class="site-log-description-block">פורטל ישראלי לסוזה לינוקס וקוד פתוח</div>
+</td>
+[% END %]
+
+<td class="site-logo-cell">
+[% IF 0 # Broken links.
+%]
+
 <a href="http://welcome.linux.org.il/"><img src="site_images/w2l.png" alt='סדרת הרצאות "ברוכים הבאים ללינוקס"' class="site-logo" /></a><div class="site-log-description-block">
 הרצאות מבוא ללינוקס: בחיפה, תל אביב וירושלים.
 </div>
+[% ELSE %]
+<a href="http://www.haifux.org/"><img src="site_images/w2l.png" alt='מועדון הלינוקס החיפאי' class="site-logo" /></a><div class="site-log-description-block">
+הרצאות על לינוקס: למתחילים ולמתקדמים.
+</div>
+[% END %]
+</td>
+<td class="site-logo-cell">
 </td>
 </tr>
 
