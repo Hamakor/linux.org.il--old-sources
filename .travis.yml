@@ -2,12 +2,12 @@ os: linux
 dist: bionic
 before_install:
     - sudo apt-get update -qq
-    - sudo apt-get --no-install-recommends install -y ack-grep cpanminus findutils libperl-dev make perl python3 python3-pip python3-setuptools
+    - sudo apt-get --no-install-recommends install -y ack-grep cpanminus findutils libperl-dev libxml-libxml-perl make perl python3 python3-pip python3-setuptools
     - sudo dpkg-divert --local --divert /usr/bin/ack --rename --add /usr/bin/ack-grep
 install:
     - which python3
     - sudo `which python3` -m pip install pycotap vnu_validator
     - sudo cpanm Alien::Tidyp
     - sudo cpanm --notest HTML::Tidy
-    - sudo cpanm File::Copy File::Find::Object File::Find::Object::Rule File::Path File::Spec  HTML::TokeParser IO::All Template Test::HTML::Recursive::DeprecatedTags Test::HTML::Tidy::Recursive Test::HTML::Tidy::Recursive::Strict Test::More Test::TrailingSpace
+    - sudo cpanm File::Copy File::Find::Object File::Find::Object::Rule File::Path File::Spec HTML::TokeParser IO::All Template Test::HTML::Recursive::DeprecatedTags Test::HTML::Tidy::Recursive Test::HTML::Tidy::Recursive::Strict Test::More Test::TrailingSpace XML::LibXML
 script: "cd www.linux.org.il-oldish-site/template-toolkit/ && ./gen-helpers && make && make test"
