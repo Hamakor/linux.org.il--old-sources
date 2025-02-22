@@ -21,18 +21,14 @@ On Debian, Ubuntu, and derivatives, type:
 
     sudo apt-get install libtemplate-perl libfile-find-object-perl
 
-On Mandriva and Mageia, type:
+On modern Fedora distributions, type
 
-    sudo urpmi perl-Template-Toolkit perl-File-Find-Object
+    sudo dnf install perl-Template-Toolkit perl-File-Find-Object
 
 On RHEL-based distributions (such as Red Hat Enterprise Linux (RHEL), CentOS,
 or Scientific Linux) and on Fedora up to 21, type:
 
     sudo yum install perl-Template-Toolkit perl-File-Find-Object
-
-On modern Fedora distributions, type
-
-    sudo dnf install perl-Template-Toolkit perl-File-Find-Object
 
 Elsewhere, consult your distribution's convention for installing packages
 or use:
