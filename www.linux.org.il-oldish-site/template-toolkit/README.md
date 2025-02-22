@@ -3,9 +3,11 @@ which are/were the legacy version of https://www.linux.org.il/ which is a Hebrew
 portal for Linux and FOSS in Israel.
 
 Around 2019, there were discussions on Israeli FOSS forums (mailing lists and Telegram
-forums) to establish a new website. The consensus settled on using
-[WordPress](https://en.wikipedia.org/wiki/WordPress) for it, but the new site
-was not finalized.
+forums) for establishing a new website. The consensus settled on basing it on
+[WordPress](https://en.wikipedia.org/wiki/WordPress), but the new site
+was not finalized. Given writing a site the scope of linux.org.il should take at
+most a few months by dedicated developers, I don't know what made the effort
+peter out.
 
 <h2>How to build</h2>
 
