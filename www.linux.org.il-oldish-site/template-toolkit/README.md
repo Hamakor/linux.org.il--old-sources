@@ -2,6 +2,11 @@ These are the sources of https://www.shlomifish.org/temp-www.linux.org.il-new-si
 which are/were the legacy version of https://www.linux.org.il/ which is a Hebrew
 portal for Linux and FOSS in Israel.
 
+Around 2019, there were discussions on Israeli FOSS forums (mailing lists and Telegram
+forums) to establish a new website. The consensus settled on using
+[WordPress](https://en.wikipedia.org/wiki/WordPress) for it, but the new site
+was not finalized.
+
 <h2>How to build</h2>
 
 - In order to build the site, type “./gen-helpers” from the command line,
